@@ -5,3 +5,28 @@
 /resources/
 public/
 assets/jsconfig.json
+
+# --- Hugo Specifics ---
+# The folder where Hugo builds the final site
+public/
+# Resources (compiled CSS/JS) - GitHub Actions will recreate these
+resources/
+# Temporary build lock files
+.hugo_build.lock
+# Local data/assets generated during development
+data/hugo_cache/
+assets/jsconfig.json
+
+# --- OS Specific Junk ---
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# --- IDE/Editor Files ---
+.vscode/
+.idea/
+*.swp
+
+# --- Environment/Secrets ---
+# Never upload your passwords or API keys
+.env
