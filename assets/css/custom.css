@@ -1,0 +1,32 @@
+/* Targets the compact view entries */
+.view-compact {
+  background-color: #f8f9fa; /* Light grey */
+  margin-bottom: 15px;       /* Adds space between entries */
+  padding: 15px;             /* Adds internal space */
+  border-radius: 8px;        /* Rounds the corners */
+  border: 1px solid #eee;    /* Adds a subtle outline */
+  transition: 0.3s;          /* Smooth transition for hover */
+}
+
+/* Optional: Change color when hovering over an entry */
+.view-compact:hover {
+  background-color: #eef4ff; /* Pale blue on hover */
+  border-color: #003262;     /* Berkeley Blue border on hover */
+}
+
+
+/* This changes the color for every link on the site */
+a {
+  color: #003262;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #3B7EA1; /* Founders Rock Blue */
+    text-decoration: none;
+  }
+}
+
+/* This updates the standard Hugo Blox primary color variable */
+:root {
+  --primary: #003262;
+}

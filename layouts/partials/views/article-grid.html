@@ -1,0 +1,29 @@
+{{ $item := .item }}
+{{ $fill_image := .configuration.fill_image | default true }}
+
+<div class="grid-common-item">
+  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+  {{ with $resource }}
+    {{ $image := . }}
+    {{ if $fill_image }}
+      {{ $image = .Fill "600x400 Center" }}
+    {{ end }}
+    {{/* Removed the <a> tag from the image */}}
+    <div class="img-responsive">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" loading="lazy">
+    </div>
+  {{ end }}
+
+  <div class="grid-content">
+    {{/* Removed the <a> tag from the title */}}
+    <h3 class="article-title mb-0 mt-0">
+      {{ $item.Title }}
+    </h3>
+
+    {{ with $item.Params.summary }}
+      <div class="article-style">
+        <p>{{ . | truncate 135 }}</p>
+      </div>
+    {{ end }}
+  </div>
+</div>

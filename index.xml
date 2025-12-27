@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tour | Feinberg Lab</title>
+    <link>http://localhost:51723/shakkinen/skeleton/</link>
+      <atom:link href="http://localhost:51723/shakkinen/skeleton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tour</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:51723/shakkinen/skeleton/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Tour</title>
+      <link>http://localhost:51723/shakkinen/skeleton/</link>
+    </image>
+    
+    <item>
+      <title>Next-generation MRI scanner designed for ultra-high-resolution human brain imaging at 7 Tesla</title>
+      <link>http://localhost:51723/shakkinen/skeleton/publications/feinberg-nat-methods-2025/</link>
+      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/publications/feinberg-nat-methods-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Next-generation MRI scanner designed for ultra-high-resolution human brain imaging at 7 Tesla</title>
+      <link>http://localhost:51723/shakkinen/skeleton/publications/test2/</link>
+      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/publications/test2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Next-generation MRI scanner designed for ultra-high-resolution human brain imaging at 7 Tesla</title>
+      <link>http://localhost:51723/shakkinen/skeleton/publications/test3/</link>
+      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/publications/test3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NexGen 7T scanner</title>
+      <link>http://localhost:51723/shakkinen/skeleton/research/scanner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/research/scanner/</guid>
+      <description>&lt;p&gt;The Next Generation 7T MRI Scanner project is a collaborative effort to push the boundaries of high-field neuroimaging. To increase granularity in human neuroimaging science, we designed and built a next-generation 7 Tesla magnetic resonance imaging scanner to reach ultra-high resolution by implementing several advances in hardware. To improve spatial encoding and increase the image signal-to-noise ratio, we developed a head-only asymmetric gradient coil (200 mT m−1, 900 T m−1s−1) with an additional third layer of windings. We integrated a 128-channel receiver system with 64- and 96-channel receiver coil arrays to boost signal in the cerebral cortex while reducing g-factor noise to enable higher accelerations. A 16-channel transmit system reduced power deposition and improved image uniformity. The scanner routinely performs functional imaging studies at 0.35–0.45 mm isotropic spatial resolution to reveal cortical layer functional activity, achieves high angular resolution in diffusion imaging and reduces acquisition time for both functional and structural imaging.&lt;/p&gt;
+&lt;p&gt;Image: Details of the circuitry hidden within the head coil for receiving signals from the brain. The receiver head coil detects the resonance signals and sends the information to a computer for reconstruction of a brain image. Shajan Gunamony, MR CoilTech Ltd. and Glasgow University, UK.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Potential collaborators</title>
+      <link>http://localhost:51723/shakkinen/skeleton/opportunities/del/collaborators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/opportunities/del/collaborators/</guid>
+      <description>&lt;p&gt;Blabla bla bla
+&lt;i&gt;U24 Dissemination Grant&lt;/i&gt; inquiries welcome.&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Layer-fMRI</title>
+      <link>http://localhost:51723/shakkinen/skeleton/research/fmri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/research/fmri/</guid>
+      <description>&lt;p&gt;With ultra-high resolution functional MRI, it is possible to differentiate active groups of neurons (blue arrows, which show double stripes of activity) in superficial layers as well as the deepest layers of the brain’s cortex. The NexGen 7T can detect activity in the thinnest human brain cortex, which is between 1.5 and 2 millimeters thick.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Diffusion imaging</title>
+      <link>http://localhost:51723/shakkinen/skeleton/research/dwi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/research/dwi/</guid>
+      <description>&lt;p&gt;Diffusion MRI imaging — called tractography — of the bundles of axons that neurons send throughout the brain’s white matter, which lies interior to the cortex gray matter at the surface of the brain. The images reveal the communications circuitry extending throughout the white matter from the surrounding cortex.
+An T. Vu, UCSF, and David Feinberg, UC Berkeley and Advanced MRI Technologies&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The second round of U24 Dissemination Projects kick off</title>
+      <link>http://localhost:51723/shakkinen/skeleton/news/nexgen-projects-round2/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/news/nexgen-projects-round2/</guid>
+      <description>&lt;h1 id=&#34;link-to&#34;&gt;link to&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>The second round of U24 Dissemination Projects kick off</title>
+      <link>http://localhost:51723/shakkinen/skeleton/opportunities/del/grads/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/opportunities/del/grads/</guid>
+      <description>&lt;h1 id=&#34;link-to&#34;&gt;link to&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>The second round of U24 Dissemination Projects kick off</title>
+      <link>http://localhost:51723/shakkinen/skeleton/opportunities/del/postdocs/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/opportunities/del/postdocs/</guid>
+      <description>&lt;h1 id=&#34;link-to&#34;&gt;link to&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>The second round of U24 Dissemination Projects kick off</title>
+      <link>http://localhost:51723/shakkinen/skeleton/opportunities/del/undergraduates/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/opportunities/del/undergraduates/</guid>
+      <description>&lt;h1 id=&#34;link-to&#34;&gt;link to&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>NexGen 7T Workshop upcoming in March</title>
+      <link>http://localhost:51723/shakkinen/skeleton/news/workshop-2026/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/news/workshop-2026/</guid>
+      <description>&lt;p&gt;For details and to participate XXX&lt;/p&gt;
+&lt;h1 id=&#34;upcoming-nexgen-7t-workshop&#34;&gt;Upcoming NexGen 7T Workshop&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>NexGen 7T Workshop 2024??</title>
+      <link>http://localhost:51723/shakkinen/skeleton/news/workshop-first/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/news/workshop-first/</guid>
+      <description>&lt;p&gt;NexGen 7T Workshop&lt;/p&gt;
+&lt;p&gt;Recordings from first NexGen 7T Workshop&lt;/p&gt;
+&lt;h1 id=&#34;embed-video&#34;&gt;embed video: &lt;a href=&#34;https://www.youtube.com/embed/BHvwvTm3KWc?si=oBSWT1zsJ7x378uR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/embed/BHvwvTm3KWc?si=oBSWT1zsJ7x378uR&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Grand opening of the NexGen 7T MRI brain scanner</title>
+      <link>http://localhost:51723/shakkinen/skeleton/news/scanner-opening/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/news/scanner-opening/</guid>
+      <description>&lt;p&gt;See the &lt;a href=&#34;https://news.berkeley.edu/2023/11/27/innovative-design-achieves-tenfold-better-resolution-for-functional-mri-brain-imaging/&#34;&gt;press release&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;link-to&#34;&gt;link to&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://localhost:51723/shakkinen/skeleton/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:51723/shakkinen/skeleton/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:51723/shakkinen/skeleton/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

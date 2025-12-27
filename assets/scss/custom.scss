@@ -1,0 +1,423 @@
+/* --- 1. Global Branding & Variables --- */
+:root {
+  --primary: #003262;       /* Berkeley Blue */
+  --primary-rgb: 0, 50, 98; 
+  --gold: #FDB515;         /* California Gold */
+  --text-main: #444;
+  --text-muted: #666;
+  --font-small: 0.85rem;
+  --font-tiny: 0.75rem;
+  --site-width: 900px; /* Adjust this number to your preference */
+}
+
+/* --- 8. Global Layout Standardization --- */
+
+/* Targets the main containers used by most Hugo/Research themes */
+.container,
+.universal-wrapper,
+.article-container,
+#contact-section .section-heading,
+#contact-section .col-12 {
+  max-width: var(--site-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+}
+
+/* Ensure the content inside doesn't hug the edges on mobile */
+@media (max-width: 1024px) {
+  .container,
+  .universal-wrapper,
+  .article-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Force Global Link Colors */
+a, a:hover, a:visited, .nav-link, .article-title a {
+  color: var(--primary) !important;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #3B7EA1 !important; 
+  text-decoration: none !important;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+/* --- 2. Typography & Section Headers --- */
+.home-section {
+  padding: 20px 0 !important;
+}
+
+.home-section .section-heading h1,
+.join-header {
+  color: var(--primary) !important;
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 10px !important;
+  text-align: left !important;
+  letter-spacing: -0.5px;
+}
+
+.gold-divider {
+  height: 4px;
+  width: 60px;
+  background-color: var(--gold);
+  margin: 0 0 20px 0 !important;
+  border: none;
+  display: block;
+}
+
+/* Standardize body text size */
+#about .article-style,
+#news .view-citation,
+#news .article-title,
+#contact-section p,
+.lab-style-block p,
+.my-custom-authors {
+  font-size: var(--font-small) !important;
+  line-height: 1.4;
+  color: var(--text-main);
+}
+
+/* --- 3. News & Publications --- */
+#news .section-heading,
+#publications .section-heading {
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+
+#news .pub-icon { display: none; }
+
+.my-journal {
+  font-size: var(--font-small);
+  font-style: italic;
+  color: #222;
+}
+
+/* --- 4. People Section --- */
+#people-section h2 {
+  color: var(--primary) !important;
+  font-size: 1.2rem !important;
+  font-weight: 800;
+  text-align: center !important;
+  margin: 20px 0 !important;
+}
+
+#people-section .portrait-title h2 {
+  font-size: var(--font-small) !important;
+  font-weight: 600 !important;
+}
+
+#people-section .people-interests {
+  font-size: var(--font-tiny) !important;
+  font-style: italic;
+  color: var(--text-muted) !important;
+  margin-top: -10px !important;
+}
+
+/* --- 5. About Section Image --- */
+.lab-basics-figure {
+  float: right;
+  width: 300px;
+  margin: 0 0 20px 20px;
+}
+
+.lab-basics-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .lab-basics-figure {
+    float: none;
+    margin: 0 auto 20px auto;
+    width: 100%;
+  }
+}
+
+/* --- 6. Contact Section (Consolidated Fixes) --- */
+
+/* Align header and divider to match the content width */
+#contact-section .section-heading {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  text-align: left !important;
+}
+
+#contact-section .row {
+  justify-content: center !important; 
+}
+
+#contact-section .col-12 {
+  max-width: 800px !important;
+  text-align: left !important;
+  padding: 0 20px !important;
+}
+
+/* Text Styling */
+#contact-section,
+#contact-section .contact-details li,
+#contact-section .contact-details a,
+#contact-section .contact-details span,
+#contact-section address,
+#contact-section p {
+  font-size: 0.8rem !important;
+  line-height: 1.6 !important;
+  color: var(--text-main) !important;
+}
+
+/* List & Icon Positioning */
+#contact-section ul.contact-details {
+  list-style: none !important;
+  padding-left: 30px !important; 
+  margin: 0 !important;
+  position: relative;
+}
+
+#contact-section .contact-details li {
+  position: relative !important;
+  margin-bottom: 12px !important;
+}
+
+#contact-section .contact-details i, 
+#contact-section .contact-details svg {
+  position: absolute !important;
+  left: -30px !important;
+  top: 6px !important; /* Adjusted for baseline alignment */
+  font-size: 0.75rem !important;
+  color: var(--primary) !important;
+  width: 20px !important;
+  text-align: center !important;
+  opacity: 0.9;
+}
+
+/* --- 7. Layout: Contact Section Top Spacing --- */
+
+#contact-section {
+  /* Adjust this number (e.g., 40px, 60px, 80px) to match other sections */
+  padding-top: 30px !important; 
+  
+  /* Ensures bottom spacing remains consistent */
+  padding-bottom: 60px !important; 
+}
+
+/* Optional: If the heading itself feels too close to the divider */
+#contact-section .section-heading {
+  margin-top: 0 !important;
+  padding-top: 10px !important;
+}
+
+
+
+/* --- 11. People Page: The "Glass Shield" Override --- */
+
+/* 1. Create a protective layer over the headshot container */
+#people-section .portrait-holder,
+#people-section .avatar-circle,
+#people-section .people-group .col-12 {
+  position: relative !important;
+}
+
+/* 2. This creates an invisible 'glass' cover over the avatar link */
+#people-section .avatar-link::after,
+#people-section .people-group a:has(img)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0); /* Invisible */
+  z-index: 10; /* Sits on top of the link */
+  pointer-events: auto !important; /* Intercepts the click */
+  cursor: default !important;
+}
+
+/* 3. Neutralize the cursor and pointer for the actual link tags */
+#people-section a:not(.social-icon):not([class*="network"]) {
+  pointer-events: none !important;
+  cursor: default !important;
+  text-decoration: none !important;
+  color: var(--primary) !important;
+}
+
+/* 4. EMERGENCY RESET: Ensure Social Icons are ABOVE the glass shield */
+#people-section .network-icon,
+#people-section .social-icon,
+#people-section ul.network-icon {
+  position: relative !important;
+  z-index: 20 !important; /* Higher than the shield */
+  pointer-events: auto !important;
+}
+
+#people-section .network-icon a,
+#people-section .social-icon a {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+/* --- 12. People Page: Tighten Name & Title Spacing --- */
+
+/* 1. Remove bottom margin from the Name */
+#people-section .portrait-title h2,
+#people-section .portrait-title h3 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1.2 !important; /* Tightens the text box itself */
+}
+
+/* 2. Remove top margin from the Position/Title */
+#people-section .portrait-title p,
+#people-section .portrait-title .people-interests,
+#people-section .portrait-title h3 + p {
+  margin-top: 2px !important;  /* Tiny gap for readability */
+  line-height: 1.3 !important;
+  color: var(--text-muted) !important;
+}
+
+/* 3. If there is an interests section, tighten it too */
+#people-section .people-interests {
+  margin-top: 0 !important;
+  font-size: var(--font-tiny) !important;
+}
+
+/* --- 13. People Page: Final Polished Typography --- */
+
+/* 1. THE NAME: Berkeley Blue & Professional Size */
+#people-section .portrait-title h2,
+#people-section .portrait-title h3 {
+  color: var(--primary) !important;
+  font-size: var(--font-small) !important; /* 0.85rem */
+  font-weight: 400 !important;
+  margin-bottom: 2px !important;
+}
+
+/* 2. THE SUMMARY/ROLE: Small, Gray, and Clean */
+#people-section .portrait-title p,
+#people-section .portrait-title div,
+#people-section .portrait-title span,
+#people-section .role,
+#people-section .people-interests {
+  color: var(--text-muted) !important; /* Professional Gray */
+  font-size: 0.72rem !important;        /* The "Tiny" size you requested */
+  line-height: 1.3 !important;
+  margin-top: 0 !important;
+  margin-bottom: 4px !important;
+  font-style: italic !important; 
+}
+
+/* 1. THE POSITION (e.g., PhD Student) - Gray & Italic */
+#people-section .role,
+#people-section .portrait-title h3,
+#people-section .portrait-title p:first-of-type {
+  font-size: 0.75rem !important;
+  display: block !important;
+  margin-bottom: 2px !important;
+}
+
+/* 2. THE SUMMARY/INTERESTS - Gray & NORMAL (Not Italic) */
+#people-section .people-interests,
+#people-section .article-style,
+#people-section .portrait-title p:nth-of-type(n+2),
+#people-section .people-interests li,
+#people-section .people-interests span {
+  color: var(--text-muted) !important;
+  font-style: italic !important; 
+  font-size: 0.72rem !important;
+  display: block !important;
+  margin-top: 4px !important;
+  }
+
+
+
+  /* --- UNIVERSAL AUTHOR KILL-SWITCH --- */
+
+/* This targets ANY section where the ID contains 'pub' */
+html body [id*="pub"] .article-metadata,
+html body [id*="pub"] .pub-authors,
+html body [id*="pub"] span.article-metadata,
+html body [id*="pub"] div.article-metadata,
+html body [id*="pub"] .author-link {
+  font-size: 0.68rem !important;     /* Extra small */
+  color: magenta !important;          /* DIAGNOSTIC COLOR - Change to #666 after it works */
+  pointer-events: none !important;    /* Disable clicks */
+  cursor: default !important;
+  font-style: normal !important;
+}
+
+/* This specifically hunts down the links (the <a> tags) which are the hardest to kill */
+html body [id*="pub"] a[href*="/author"],
+html body [id*="pub"] .article-metadata a,
+html body [id*="pub"] .pub-authors a {
+  font-size: 0.68rem !important;
+  color: inherit !important;          /* Forces it to take the Magenta/Gray from above */
+  pointer-events: none !important;    /* Hard-disables the link */
+  cursor: default !important;
+  text-decoration: none !important;
+}
+
+/* Protect the Google Scholar link at the bottom */
+#scholar-footer a, 
+#scholar-footer a * {
+  font-size: 0.8rem !important;
+  color: #003262 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+
+
+/* --- 14. Navigation Bar Scaling --- */
+
+/* 1. Scale the Menu Items (Home, People, Pubs, etc.) */
+.navbar-nav .nav-item .nav-link {
+  font-size: 0.85rem !important;  /* Default is usually ~0.9rem */
+  font-weight: 400 !important;    /* Makes the text pop more */
+  padding-left: 12px !important;  /* Adds a bit of breathing room */
+  padding-right: 12px !important;
+  letter-spacing: 0.2px;          /* Clean, professional spacing */
+}
+
+/* 2. Optional: Scale the Site Name/Logo (Brand) */
+.navbar-brand {
+  font-size: 1.3rem !important;   /* Adjust if the title feels too small now */
+  font-weight: 800 !important;
+}
+
+/* 3. Ensure the navbar height adjusts to the larger text */
+.navbar {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+
+
+/* --- 15. News Subtitle ("All News >>") Fix --- */
+
+#news .section-subheading,
+#news .section-subheading p,
+#news .section-heading p {
+  font-size: var(--font-small) !important; /* Reduces it to 0.85rem */
+  font-weight: 400 !important;
+  color: var(--text-muted) !important;
+  margin-top: -5px !important;            /* Tucks it closer to the gold divider */
+  margin-bottom: 20px !important;
+}
+
+#news .section-subheading a {
+  color: var(--primary) !important;       /* Keeps it Berkeley Blue */
+  text-decoration: none !important;
+}
+
+#news .section-subheading a:hover {
+  text-decoration: underline !important;
+}

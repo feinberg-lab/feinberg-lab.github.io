@@ -1,0 +1,23 @@
+{{ $item := .item }}
+{{ $has_summary := .has_summary | default false }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{/* Format the date: "Jan 2, 2006" = Dec 26, 2025 */}}
+  <span class="article-metadata li-cite-author">
+    {{ $item.Date.Format "2006-01-02" }}.
+  </span>
+  
+  <span class="article-title">
+    <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
+  </span>
+
+  {{ if $has_summary }}
+  <div class="article-style">{{ $item.Summary | truncate 135 }}</div>
+  {{ end }}
+
+  <div class="btn-links">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+</div>

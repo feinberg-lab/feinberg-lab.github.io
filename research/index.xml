@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NexGen 7T | Feinberg Lab</title>
+    <link>http://localhost:51723/shakkinen/skeleton/research/</link>
+      <atom:link href="http://localhost:51723/shakkinen/skeleton/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>NexGen 7T</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:51723/shakkinen/skeleton/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>NexGen 7T</title>
+      <link>http://localhost:51723/shakkinen/skeleton/research/</link>
+    </image>
+    
+    <item>
+      <title>NexGen 7T scanner</title>
+      <link>http://localhost:51723/shakkinen/skeleton/research/scanner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/research/scanner/</guid>
+      <description>&lt;p&gt;The Next Generation 7T MRI Scanner project is a collaborative effort to push the boundaries of high-field neuroimaging. To increase granularity in human neuroimaging science, we designed and built a next-generation 7 Tesla magnetic resonance imaging scanner to reach ultra-high resolution by implementing several advances in hardware. To improve spatial encoding and increase the image signal-to-noise ratio, we developed a head-only asymmetric gradient coil (200 mT m−1, 900 T m−1s−1) with an additional third layer of windings. We integrated a 128-channel receiver system with 64- and 96-channel receiver coil arrays to boost signal in the cerebral cortex while reducing g-factor noise to enable higher accelerations. A 16-channel transmit system reduced power deposition and improved image uniformity. The scanner routinely performs functional imaging studies at 0.35–0.45 mm isotropic spatial resolution to reveal cortical layer functional activity, achieves high angular resolution in diffusion imaging and reduces acquisition time for both functional and structural imaging.&lt;/p&gt;
+&lt;p&gt;Image: Details of the circuitry hidden within the head coil for receiving signals from the brain. The receiver head coil detects the resonance signals and sends the information to a computer for reconstruction of a brain image. Shajan Gunamony, MR CoilTech Ltd. and Glasgow University, UK.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Layer-fMRI</title>
+      <link>http://localhost:51723/shakkinen/skeleton/research/fmri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/research/fmri/</guid>
+      <description>&lt;p&gt;With ultra-high resolution functional MRI, it is possible to differentiate active groups of neurons (blue arrows, which show double stripes of activity) in superficial layers as well as the deepest layers of the brain’s cortex. The NexGen 7T can detect activity in the thinnest human brain cortex, which is between 1.5 and 2 millimeters thick.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Diffusion imaging</title>
+      <link>http://localhost:51723/shakkinen/skeleton/research/dwi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51723/shakkinen/skeleton/research/dwi/</guid>
+      <description>&lt;p&gt;Diffusion MRI imaging — called tractography — of the bundles of axons that neurons send throughout the brain’s white matter, which lies interior to the cortex gray matter at the surface of the brain. The images reveal the communications circuitry extending throughout the white matter from the surrounding cortex.
+An T. Vu, UCSF, and David Feinberg, UC Berkeley and Advanced MRI Technologies&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
