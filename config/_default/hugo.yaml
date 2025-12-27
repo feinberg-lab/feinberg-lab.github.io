@@ -6,7 +6,7 @@
 title: Feinberg Lab # Website name
 baseURL: 'https://pages.github.berkeley.edu/shakkinen/skeleton/' # Website URL
 canonifyURLs: true
-relativeURLs: false
+relativeURLs: true
 
 ############################
 ## LANGUAGE
