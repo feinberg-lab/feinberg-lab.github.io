@@ -23,7 +23,7 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true
+          extended: true  # <--- THIS IS THE CRITICAL LINE
 
       - name: Build with Hugo
         env:
