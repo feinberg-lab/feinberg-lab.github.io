@@ -2,24 +2,9 @@ baseURL: "https://smhakkinen.github.io/website_skeleton/"
 title: "My Lab Site"
 theme: "github.com/HugoBlox/hugo-blox-builder"
 
-# THE FIX: Turn both of these to FALSE
-# This prevents Hugo from adding the subfolder name twice
+# Neutral settings to prevent doubling
 canonifyURLs: false
 relativeURLs: false
 
-ignoreCache: true
-
 params:
-  # This didn't trigger in your last link (the hash was still there)
-  # Let's ensure it's under the params: block
   fingerprint: false
-
-# Add this to the very end of the file
-module:
-  hugoVersion:
-    extended: true
-    min: "0.110.0"
-
-# Specifically for the assets pipeline
-assets:
-  disableFingerprinting: true
