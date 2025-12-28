@@ -1,9 +1,14 @@
+# 1. Main Settings (Must be at the top)
 baseURL: "https://smhakkinen.github.io/website_skeleton/"
 title: "My Lab Site"
 theme: "github.com/HugoBlox/hugo-blox-builder"
 
+# 2. Path & Cache Settings
 canonifyURLs: true
 relativeURLs: false
 ignoreCache: true
 
-# Add your other Hugo settings below...
+# 3. Theme Specific Parameters
+[params]
+  # Helps fix "Scenario B" styling issues on GitHub Pages
+  fingerprint = false
