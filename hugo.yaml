@@ -4,5 +4,6 @@ theme: "github.com/HugoBlox/hugo-blox-builder"
 
 canonifyURLs: true
 relativeURLs: false
+ignoreCache: true
 
 # Add your other Hugo settings below...
