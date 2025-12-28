@@ -1,0 +1,5 @@
+baseURL: "https://smhakkinen.github.io/website_skeleton/"
+title: "My Lab Site"
+theme: "github.com/HugoBlox/hugo-blox-builder"
+
+# Add your other Hugo settings below...
