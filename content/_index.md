@@ -14,7 +14,7 @@ sections:
         <div class="gold-divider"></div>
         
         <figure class="lab-basics-figure">
-          <img src="dwi.jpg" class="lab-basics-img">
+          <img src="/images/dwi.jpg" class="lab-basics-img">
           <figcaption>The NEXGEN-7T Team at UC Berkeley.</figcaption>
         </figure>
 
