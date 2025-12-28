@@ -2,12 +2,14 @@ baseURL: "https://smhakkinen.github.io/website_skeleton/"
 title: "My Lab Site"
 theme: "github.com/HugoBlox/hugo-blox-builder"
 
-# Path & Cache Settings
-canonifyURLs: true
+# THE FIX: Turn both of these to FALSE
+# This prevents Hugo from adding the subfolder name twice
+canonifyURLs: false
 relativeURLs: false
+
 ignoreCache: true
 
-# Theme Specific Parameters (YAML style)
 params:
-  # This tells Hugo not to use security hashes that can break on GitHub Pages
+  # This didn't trigger in your last link (the hash was still there)
+  # Let's ensure it's under the params: block
   fingerprint: false
