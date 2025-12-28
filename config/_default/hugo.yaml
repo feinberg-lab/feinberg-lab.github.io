@@ -7,3 +7,10 @@ relativeURLs: false
 # This ensures Hugo knows exactly where the 'root' is
 # (it helps images find the /images/ folder)
 uglyURLs: false
+
+security:
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+      - '^WC_POST_CSS$'  # This is the line that fixes the error
