@@ -13,3 +13,13 @@ params:
   # This didn't trigger in your last link (the hash was still there)
   # Let's ensure it's under the params: block
   fingerprint: false
+
+# Add this to the very end of the file
+module:
+  hugoVersion:
+    extended: true
+    min: "0.110.0"
+
+# Specifically for the assets pipeline
+assets:
+  disableFingerprinting: true
