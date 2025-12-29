@@ -9,33 +9,8 @@ weight: 1
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 authors:
-  - David A. Feinberg
-  - Alexander J. S. Beckett
-  - An T. Vu
-  - Jason Stockmann
-  - Laurentius Huber
-  - Samantha Ma
-  - Sinyeob Ahn
-  - Kawin Setsompop
-  - Xiaozhi Cao
-  - Suhyung Park
-  - Chunlei Liu
-  - Lawrence L. Wald
-  - Jonathan R. Polimeni
-  - Azma Mareyam
-  - Bernhard Gruber
-  - Rudiger Stirnberg
-  - Congyu Liao
-  - Essa Yacoub
-  - Mathias Davids
-  - Paul Bell
-  - Elmar Rummert
-  - Michael Koehler
-  - Andreas Potthast
-  - Ignacio Gonzalez-Insua
-  - Stefan Stocker
-  - Shajan Gunamony
-  - Peter Dietz
+  - "David A. Feinberg"
+  - "Alexander J. S. Beckett"
 
 publication: "Nature Methods"
 publication_short: "Nat. Methods"
