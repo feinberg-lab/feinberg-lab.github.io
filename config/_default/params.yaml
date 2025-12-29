@@ -12,7 +12,7 @@ title: "Feinberg Lab"
 header:
   navbar:
     enable: true
-    show_logo: false        # Forces text to show
+    show_logo: true        # Forces text to show
     show_site_name: true    # Shows 'Feinberg Lab' text
     highlight_active_link: true
     align: r
