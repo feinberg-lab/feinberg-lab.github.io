@@ -29,7 +29,7 @@ organizations:
 # bio: 'Interested in mesoscale connectivity'
 
 interests:
-  - Layer-fMRI to assess brain organization and mesoscale circuits
+  - my interests
 
 #education:
 #  courses:

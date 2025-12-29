@@ -5,10 +5,6 @@ image:
   focal_point: 'top'
 ---
 
-NexGen 7T Workshop
-
-<!--more-->
-
 Recordings from first NexGen 7T Workshop
 
-# embed video: https://www.youtube.com/embed/BHvwvTm3KWc?si=oBSWT1zsJ7x378uR
+{{< youtube BHvwvTm3KWc >}}

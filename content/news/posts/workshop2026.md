@@ -6,7 +6,3 @@ image:
 ---
 
 For details and to participate XXX
-
-<!--more-->
-
-# Upcoming NexGen 7T Workshop

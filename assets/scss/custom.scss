@@ -348,7 +348,7 @@ html body [id*="pub"] span.article-metadata,
 html body [id*="pub"] div.article-metadata,
 html body [id*="pub"] .author-link {
   font-size: 0.68rem !important;     /* Extra small */
-  color: magenta !important;          /* DIAGNOSTIC COLOR - Change to #666 after it works */
+  color: #666 !important;          /* DIAGNOSTIC COLOR - Change to #666 after it works */
   pointer-events: none !important;    /* Disable clicks */
   cursor: default !important;
   font-style: normal !important;
@@ -421,3 +421,44 @@ html body [id*="pub"] .pub-authors a {
 #news .section-subheading a:hover {
   text-decoration: underline !important;
 }
+
+
+
+
+
+/* --- Individual News/Article Page Styling --- */
+
+/* --- 17. Force Small Fonts on Single Post/News Pages --- */
+
+/* Targets the main title of the post */
+.universal-wrapper h1,
+.article-container h1,
+h1.article-title,
+.docs-article-container h1 {
+  font-size: 1.25rem !important; /* Forces title to be much smaller */
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Targets all paragraph and list text within the post body */
+.article-style,
+.article-style p,
+.article-style li,
+.universal-wrapper p,
+.universal-wrapper li,
+article.article-container p {
+  font-size: var(--font-small) !important; /* 0.85rem */
+  line-height: 1.4 !important;
+}
+
+/* Targets the metadata (date, categories) at the top of the post */
+.article-metadata,
+.article-metadata span,
+.article-metadata a {
+  font-size: var(--font-tiny) !important; /* 0.75rem */
+  color: var(--text-muted) !important;
+}
+
+/* Targets sub-headers (H2, H3) inside the news post */
+.article-style h2, .universal-wrapper h2 { font-size: 1.1rem !important; }
+.article-style h3, .universal-wrapper h3 { font-size: 1.0rem !important; }
