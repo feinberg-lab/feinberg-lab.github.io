@@ -17,7 +17,7 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - publications
+          - publication
         author: ""
         category: ""
         tag: ""
