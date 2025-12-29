@@ -376,31 +376,6 @@ html body [id*="pub"] .pub-authors a {
 
 
 
-/* --- 14. Navigation Bar Scaling --- */
-
-/* 1. Scale the Menu Items (Home, People, Pubs, etc.) */
-.navbar-nav .nav-item .nav-link {
-  font-size: 0.85rem !important;  /* Default is usually ~0.9rem */
-  font-weight: 400 !important;    /* Makes the text pop more */
-  padding-left: 12px !important;  /* Adds a bit of breathing room */
-  padding-right: 12px !important;
-  letter-spacing: 0.2px;          /* Clean, professional spacing */
-}
-
-/* 2. Optional: Scale the Site Name/Logo (Brand) */
-.navbar-brand {
-  font-size: 1.3rem !important;   /* Adjust if the title feels too small now */
-  font-weight: 800 !important;
-}
-
-/* 3. Ensure the navbar height adjusts to the larger text */
-.navbar {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-}
-
-
-
 /* --- 15. News Subtitle ("All News >>") Fix --- */
 
 #news .section-subheading,
