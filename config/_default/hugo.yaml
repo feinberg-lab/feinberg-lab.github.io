@@ -15,6 +15,11 @@ markup:
     renderer:
       unsafe: true # This allows <div> and <span> tags in your content
       
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors  # <--- This MUST be here
+      
 security:
   funcs:
     getenv:
