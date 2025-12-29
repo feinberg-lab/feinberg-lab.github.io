@@ -36,7 +36,7 @@ sections:
       sort_ascending: true
     design:
       # Choose a listing view
-      view: citation #custom-compact
+      view: custom-compact
       # Choose single or dual column layout
       columns: '1'
       spacing:
