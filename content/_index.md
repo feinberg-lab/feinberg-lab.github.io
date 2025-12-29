@@ -3,6 +3,20 @@ title: Welcome to the Feinberg Lab
 type: landing
 
 sections:
+  - block: markdown
+    id: about
+    content:
+      title: 'About'
+      subtitle: ''
+      text: |
+        This site provides information about David Feinberg's neuroscience lab at UC Berkeley.
+        
+        ![NEXGEN-7T Team](/images/dwi.jpg)
+        
+        The research group investigates the fundamental principles of neuroscience...
+    design:
+      columns: '1'
+      
   # BLOCK 1: Research Group Basics
   - block: markdown
     id: about
