@@ -4,6 +4,8 @@ baseURL: "https://smhakkinen.github.io/website_skeleton/"
 canonifyURLs: false
 relativeURLs: false
 
+title: "Feinberg Lab"
+
 # This ensures Hugo knows exactly where the 'root' is
 # (it helps images find the /images/ folder)
 uglyURLs: false
