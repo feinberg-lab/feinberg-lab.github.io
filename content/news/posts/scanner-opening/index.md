@@ -9,7 +9,7 @@ image:
 
   <div style="flex: 1; min-width: 300px;">
     <figure class="lab-basics-figure">
-      <img src="images/scanner_opening.jpg">
+      <img src="images/scanner_opening.jpg"  class="lab-basics-img">
       <figcaption>The NexGen 7T MRI scanner at UC Berkeley.</figcaption>
     </figure>
   </div>
