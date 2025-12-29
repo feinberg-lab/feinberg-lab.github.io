@@ -341,6 +341,16 @@ a:hover {
 
   /* --- UNIVERSAL AUTHOR KILL-SWITCH --- */
 
+  /* A broader net to catch the authors */
+.article-metadata, 
+.stream-meta, 
+.pub-authors, 
+[itemprop="author"] {
+  color: magenta !important; /* Keep this for testing */
+  display: inline-block !important;
+  visibility: visible !important;
+}
+
 /* This targets ANY section where the ID contains 'pub' */
 html body [id*="pub"] .article-metadata,
 html body [id*="pub"] .pub-authors,
