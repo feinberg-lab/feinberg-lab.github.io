@@ -3,20 +3,6 @@ title: Welcome to the Feinberg Lab
 type: landing
 
 sections:
-  - block: markdown
-    id: about
-    content:
-      title: 'About'
-      subtitle: ''
-      text: |
-        This site provides information about David Feinberg's neuroscience lab at UC Berkeley.
-        
-        ![NEXGEN-7T Team](/images/dwi.jpg)
-        
-        The research group investigates the fundamental principles of neuroscience...
-    design:
-      columns: '1'
-      
   # BLOCK 1: Research Group Basics
   - block: markdown
     id: about
@@ -28,12 +14,12 @@ sections:
         <div class="gold-divider"></div>
         
         <figure class="lab-basics-figure">
-          <img src="/images/dwi.jpg" class="lab-basics-img">
+          <img src="images/dwi.jpg" class="lab-basics-img">
           <figcaption>The NEXGEN-7T Team at UC Berkeley.</figcaption>
         </figure>
 
         <div class="lab-style-block">
-        <p>This site provides information about David Feinberg's neuroscience lab at UC Berkeley. The research group investigates the fundamental principles of [Field]. Our research group combines [Method A] and [Method B] to solve challenges in [Specific Problem]. Etc</p>
+        <p>This site provides information about David Feinberg's neuroscience lab at UC Berkeley. The research group investigates the fundamental principles of [Field]. Our research group combines [Method A] and [Method B] to solve challenges in [Specific Problem].</p>
         </div>
     design:
       columns: '1' # Set to '2' if you want the title on the left and text on the right
