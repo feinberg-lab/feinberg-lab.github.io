@@ -135,6 +135,3 @@ publications:
 # config/_default/params.yaml
 plugins_css:
   - custom
-
-# Set this to false to hide sharing buttons site-wide
-share: false
