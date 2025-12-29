@@ -5,9 +5,20 @@
 
 # Appearance
 
-# The name that appears in the top-left of the website
-# 1. Standard location
+# config/_default/params.yaml
 site_name: "Feinberg Lab"
+title: "Feinberg Lab"
+
+header:
+  navbar:
+    enable: true
+    show_logo: false        # Forces text to show
+    show_site_name: true    # Shows 'Feinberg Lab' text
+    highlight_active_link: true
+    align: r
+    show_language: false
+    show_day_night: true
+    show_search: true
 
 # 2. Brand location (used by newer versions)
 brand:
@@ -44,19 +55,6 @@ marketing:
   verification:
     google: ''
     baidu: ''
-
-# Site header
-
-header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: false
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: true
-    show_site_name: true # Add this line if it's missing
 
 # Site footer
 
