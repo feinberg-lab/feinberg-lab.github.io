@@ -8,6 +8,11 @@ relativeURLs: false
 # (it helps images find the /images/ folder)
 uglyURLs: false
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # This allows <div> and <span> tags in your content
+      
 security:
   funcs:
     getenv:

@@ -15,7 +15,9 @@ brand:
 
 # This displays author names as plain text without searching for profile pages
 link_authors: false
-
+authors:
+  link: false
+  
 appearance:
   theme_day: minimal
   theme_night:
