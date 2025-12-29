@@ -8,7 +8,9 @@ weight: 1
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
-authors: ["David A. Feinberg", "Alexander J. S. Beckett"]
+authors:
+ - david-feinberg
+ - alex-beckett
 
 publication: "Nature Methods"
 publication_short: "Nat. Methods"
