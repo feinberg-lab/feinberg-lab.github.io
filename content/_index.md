@@ -31,7 +31,7 @@ sections:
       title: |
         <h2 class="join-header">Recent News</h2>
         <div class="gold-divider"></div>        
-      subtitle: '[All news >>](/news)'
+      subtitle: '[All news >>](news/)'
       filters:
         folders:
           - news
