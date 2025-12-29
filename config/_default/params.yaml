@@ -6,7 +6,12 @@
 # Appearance
 
 # The name that appears in the top-left of the website
+# 1. Standard location
 site_name: "Feinberg Lab"
+
+# 2. Brand location (used by newer versions)
+brand:
+  site_name: "Feinberg Lab"
 
 # This displays author names as plain text without searching for profile pages
 link_authors: false
