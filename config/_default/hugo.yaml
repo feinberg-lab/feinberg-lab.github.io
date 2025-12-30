@@ -13,7 +13,7 @@ uglyURLs: false
 markup:
   goldmark:
     renderer:
-      unsafe: true # This allows <div> and <span> tags in your content
+      unsafe: true # This allows <div> and <span> tags in your content 
       
 taxonomies:
   tag: tags
