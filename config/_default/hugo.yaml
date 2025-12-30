@@ -1,4 +1,4 @@
-baseURL: "https://smhakkinen.github.io/website_skeleton/"
+baseURL: "https://feinberg-lab.github.io/website_skeleton/"
 
 # These must be FALSE to stop the doubling
 canonifyURLs: false
