@@ -1,5 +1,5 @@
 ---
-title: Welcome to the [PI Name] Lab
+title: News
 type: landing  # Tells Blox this is the homepage
 
 sections:
