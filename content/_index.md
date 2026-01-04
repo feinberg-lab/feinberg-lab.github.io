@@ -19,7 +19,7 @@ sections:
         </figure>
 
         <div class="lab-style-block">
-        <p>This site provides information about David Feinberg's neuroscience lab at UC Berkeley. The research group investigates the fundamental principles of [Field]. Our research group combines [Method A] and [Method B] to solve challenges in [Specific Problem].</p>
+        <p>This site provides information about David Feinberg's neuroscience lab at UC Berkeley.</p>
         </div>
     design:
       columns: '1' # Set to '2' if you want the title on the left and text on the right
