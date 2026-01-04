@@ -1,6 +1,6 @@
 ---
 title: Grand opening of the NexGen 7T MRI brain scanner
-date: 2023-02-01
+date: 2023-12-01
 share: false  # social media buttons
 image:
   focal_point: 'top'
