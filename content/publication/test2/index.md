@@ -1,6 +1,6 @@
 
 ---
-title: "Next-generation MRI scanner designed for ultra-high-resolution human brain imaging at 7 Tesla"
+title: "Higher spatial resolution and sensitivity in whole brain functional MRI at 7T using 3D EPI accelerated with variable density CAIPI sampling and temporal random walk"
 
 weight: 1
 
@@ -9,47 +9,28 @@ weight: 1
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 authors:
-  - David A. Feinberg
-  - Alexander J. S. Beckett
-  - An T. Vu
-  - Jason Stockmann
-  - Laurentius Huber
-  - Samantha Ma
-  - Sinyeob Ahn
-  - Kawin Setsompop
-  - Xiaozhi Cao
   - Suhyung Park
-  - Chunlei Liu
-  - Lawrence L. Wald
-  - Jonathan R. Polimeni
-  - Azma Mareyam
-  - Bernhard Gruber
-  - Rudiger Stirnberg
-  - Congyu Liao
-  - Essa Yacoub
-  - Mathias Davids
-  - Paul Bell
-  - Elmar Rummert
-  - Michael Koehler
-  - Andreas Potthast
-  - Ignacio Gonzalez-Insua
-  - Stefan Stocker
-  - Shajan Gunamony
-  - Peter Dietz
+  - Alexander J. S. Beckett
+  - Suvi Hakkinen
+  - Erica Walker
+  - Samantha J. Ma
+  - Sugil Kim
+  - Hahnsung Kim
+  - David A. Feinberg
+  
+publication: "Magnetic Resonance in Medicine"
+publication_short: "Mag. Res. Medicine"
 
-publication: "Nature Methods"
-publication_short: "Nat. Methods"
-
-date: 2023-11-27
+date: 2025-04-24
 
 summary: ''
 
-doi: "10.1038/s41592-023-02068-7"
+doi: "10.1002/mrm.30512"
 
 # links:
 # - name: ""
 # url: ""
-url_pdf: ''
+url_pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.30512'
 url_code: ''
 url_dataset: ''
 url_poster: ''
