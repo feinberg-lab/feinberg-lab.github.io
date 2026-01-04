@@ -1,11 +1,15 @@
 ---
-title: NexGen 7T Workshop 2024??
-date: 2024-01-01
+title: Inaugral NexGen 7T Workshop 2023
+date: 2023-12-01
 share: false  # social media buttons
 image:
   focal_point: 'top'
 ---
 
-Recordings from first NexGen 7T Workshop
+An ISMRM Endorsed Inaugural Workshop was held to mark the completion of the technology development for the NexGen 7T. 
+ 
+The workshop activities included educational sessions, with scientific and medical talks from the international team of MRI scientists who contributed to the NexGen 7T scanner project. 
+
+Recordings from first NexGen 7T Workshop can be viewed on YouTube
 
 {{< youtube BHvwvTm3KWc >}}
