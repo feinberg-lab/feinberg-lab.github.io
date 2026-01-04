@@ -1,6 +1,6 @@
 
 ---
-title: "Next-generation MRI scanner designed for ultra-high-resolution human brain imaging at 7 Tesla"
+title: "Reassessment of peripheral nerve stimulation thresholds for the Impulse model-optimized asymmetric head gradient coil"
 
 weight: 1
 
@@ -9,42 +9,24 @@ weight: 1
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 authors:
-  - David A. Feinberg
-  - Alexander J. S. Beckett
-  - An T. Vu
-  - Jason Stockmann
-  - Laurentius Huber
-  - Samantha Ma
-  - Sinyeob Ahn
-  - Kawin Setsompop
-  - Xiaozhi Cao
-  - Suhyung Park
-  - Chunlei Liu
-  - Lawrence L. Wald
-  - Jonathan R. Polimeni
-  - Azma Mareyam
-  - Bernhard Gruber
-  - Rudiger Stirnberg
-  - Congyu Liao
-  - Essa Yacoub
-  - Mathias Davids
-  - Paul Bell
+  - David A. Feinberg 
+  - Samantha J. Ma 
+  - Erica Walker 
+  - Alexander J. S. Beckett 
+  - Dominik Rattenbacher
   - Elmar Rummert
-  - Michael Koehler
-  - Andreas Potthast
-  - Ignacio Gonzalez-Insua
-  - Stefan Stocker
-  - Shajan Gunamony
   - Peter Dietz
+  - Mathias Davids
+  - Nicolas Boulant
 
-publication: "Nature Methods"
-publication_short: "Nat. Methods"
+publication: "Magnetic Resonance in Medicine"
+publication_short: "Magn Reson Med"
 
 date: 2023-11-27
 
 summary: ''
 
-doi: "10.1038/s41592-023-02068-7"
+doi: "doi.org/10.1002/mrm.30523"
 
 # links:
 # - name: ""
