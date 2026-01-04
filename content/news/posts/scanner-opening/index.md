@@ -1,6 +1,6 @@
 ---
 title: Grand opening of the NexGen 7T MRI brain scanner
-date: 2023-01-12
+date: 2023-02-01
 share: false  # social media buttons
 image:
   focal_point: 'top'
@@ -17,8 +17,7 @@ image:
 
   <div style="flex: 1.2; min-width: 300px;">
     <p>
-      The NexGen 7T MRI brain scanner represents a massive leap in neuroimaging technology, 
-      achieving tenfold better resolution for functional MRI. 
+      The Grand Opening for the NexGen 7T MRI brain scanner was held at UC Berkeley on December 1st, 2023. 
     </p>
     <p>
       You can read the full details in the Berkeley 
