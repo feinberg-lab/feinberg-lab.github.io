@@ -1,9 +1,11 @@
 ---
 title: NexGen 7T Workshop upcoming in March
-date: 2025-03-01
+date: 2026-01-01
 share: false  # social media buttons
 image:
   focal_point: 'top'
 ---
 
-For details and to participate XXX
+The second NexGen 7T workshop will be held in March of 2026, highlighting recent work done on the scanner including projects undertaken as part of the U24 dissemination project.
+
+Details will be released soon, for more information pleaee get in touch via nexgen7t@berkeley.edu
