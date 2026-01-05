@@ -29,7 +29,7 @@ organizations:
 # bio: 'Interested in mesoscale connectivity'
 
 interests:
-  - my interests
+
 
 #education:
 #  courses:
