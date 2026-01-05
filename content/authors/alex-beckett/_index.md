@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: ??
+role: Research Scientist
 
 weight: 1
 
