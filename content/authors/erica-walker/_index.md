@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: ??
+role: Research Assistant
 
 user_groups: [Current Lab Members]
 
