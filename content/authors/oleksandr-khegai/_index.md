@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: ??
+role: Project Manager/Research Scientist
 
 weight: 2
 
