@@ -13,7 +13,7 @@ sections:
         <div class="gold-divider"></div>
         <div class="lab-style-block">
           <p>Bla bla..</p>
-          <p><a href="{{< ref "/u24.md" >}}" class="contact-link">U24 Dissemination Project</a>
+          <p><a href="{{< ref "/u24.md" >}}" class="contact-link">The U24 Dissemination Project is an opportunity for researchers to submit projects for data collection on the NexGen 7T MRI scanner at UC Berkeley.</a>
         </div>
         
         <h2 class="join-header">Postdoctoral Fellows</h2>
@@ -22,11 +22,11 @@ sections:
           <p>We are currently..
         </div>
 
-        <h2 class="join-header">Graduate Students</h2>
-        <div class="gold-divider"></div>
-        <div class="lab-style-block">
-          <p>We welcome rotations from students in the XXX programs. We look for students with strong quantitative backgrounds and a passion for imaging technology.
-        </div>
+        #<h2 class="join-header">Graduate Students</h2>
+        #<div class="gold-divider"></div>
+        #<div class="lab-style-block">
+        #  <p>We welcome rotations from students in the XXX programs. We look for students with strong quantitative backgrounds and a passion for imaging technology.
+        #</div>
 
         <h2 class="join-header">Undergraduate Research</h2>
         <div class="gold-divider"></div>
