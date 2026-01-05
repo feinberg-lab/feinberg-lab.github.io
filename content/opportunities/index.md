@@ -21,13 +21,11 @@ sections:
           <p>We are currently..
         </div>
 
-        {{/*
         <h2 class="join-header">Graduate Students</h2>
         <div class="gold-divider"></div>
         <div class="lab-style-block">
         <p>We welcome rotations from students in the XXX programs. We look for students with strong quantitative backgrounds and a passion for imaging technology.
         </div>
-        */}}
 
         <h2 class="join-header">Undergraduate Research</h2>
         <div class="gold-divider"></div>
