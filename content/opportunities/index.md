@@ -12,7 +12,6 @@ sections:
         <h2 class="join-header">Potential Collaborators</h2>
         <div class="gold-divider"></div>
         <div class="lab-style-block">
-          <p>Bla bla..</p>
           <p><a href="{{< ref "/u24.md" >}}" class="contact-link">The U24 Dissemination Project is an opportunity for researchers to submit projects for data collection on the NexGen 7T MRI scanner at UC Berkeley.</a>
         </div>
         
