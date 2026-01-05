@@ -9,12 +9,12 @@ weight: 1
 # Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 authors:
- - Beckett, Alexander J. S.
- - Dadakova, Tetiana
- - Townsend, Jennifer
- - Huber, Laurentius
- - Park, Suhyung
- - Feinberg, David A.
+ - Alexander J. S. Beckett 
+ - Tetiana Dadakova
+ - Jennifer Townsend
+ - Renzo Huber
+ - Suhyung Park 
+ - David A. Feinberg 
 
 publication: "Magnetic Resonance in Medicine"
 publication_short: "Magn Reson Med"
