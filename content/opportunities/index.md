@@ -42,7 +42,7 @@ sections:
         <h2 class="join-header">Research volunteers</h2>
         <div class="gold-divider"></div>
         <div class="lab-style-block">
-          <p>Bla bla..
+          <p>If you are interested in being a participant on the NexGen 7T, please get in contact at nexgen7T@berkeley.edu.
         </div>
 
     design:
