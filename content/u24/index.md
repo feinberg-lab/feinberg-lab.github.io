@@ -27,9 +27,11 @@ sections:
         <p>If you have any questions please do not hesitate to reach out at <a href="mailto:nexgen7T@berkeley.edu">nexgen7T@berkeley.edu</a>.</p>
         </div>
 
+        <!---
         <div style="display: flex; justify-content: center; width: 100%;">
         {{< figure src="projects.png" style="width: 80%;" >}}
         </div>
+        -->
     design:
       columns: '1'
       spacing:
