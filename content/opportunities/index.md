@@ -23,17 +23,21 @@ sections:
         </div>
         -->
 
+        <!---
         <h2 class="join-header">Graduate Students</h2>
         <div class="gold-divider"></div>
         <div class="lab-style-block">
         <p>We welcome rotations from students in the XXX programs. We look for students with strong quantitative backgrounds and a passion for imaging technology.
         </div>
+        -->
 
+        <!---
         <h2 class="join-header">Undergraduate Research</h2>
         <div class="gold-divider"></div>
         <div class="lab-style-block">
           <p>We offer research opportunities for undergraduates who can commit at least XXX hours per week for 1-2 semesters. Students typically assist with image analysis or data collection at the scanner.
         </div>
+         -->
 
         <h2 class="join-header">Research volunteers</h2>
         <div class="gold-divider"></div>
