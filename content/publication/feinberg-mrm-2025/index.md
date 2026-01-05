@@ -26,7 +26,7 @@ date: 2025-05-23
 
 summary: ''
 
-doi: "doi.org/10.1002/mrm.30523"
+doi: "10.1002/mrm.30523"
 
 # links:
 # - name: ""
