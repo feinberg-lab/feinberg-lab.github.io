@@ -17,4 +17,3 @@ https://youtube.com/playlist?list=PLEZEA4OebId2YitP-0UqMhOmXQICLBgWT&si=EjabsI6I
 {{< youtube_enhanced id="BHvwvTm3KWc" title="NexGen 7T" playlistid="PLEZEA4OebId2YitP-0UqMhOmXQICLBgWT" >}}
 
 
-{{< youtube BHvwvTm3KWc >}}
