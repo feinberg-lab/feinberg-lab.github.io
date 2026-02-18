@@ -16,12 +16,12 @@ main:
   - name: Publications
     url: publication
     weight: 30
-  - name: Opportunities
-    url: opportunities
+  - name: NexGen 7T Scanner
+    url: scanner
     weight: 40
   - name: U24 Dissemination Project
     url: u24
     weight: 50
-  - name: Contact
+  - name: Contact & Opportunities
     url: contact
     weight: 70
