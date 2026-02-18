@@ -17,7 +17,7 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - publication
+          - publication/manuscripts
         author: ""
         category: ""
         tag: ""
@@ -61,4 +61,43 @@ sections:
         color: '#ffffff'
       spacing:
         padding: ['0', '0', '0', '0']
+
+  - block: collection
+    id: abstracts
+    content:
+      title: |
+        <h2 class="join-header">Recent Abstracts</h2>
+        <div class="gold-divider"></div>
+      subtitle: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 0
+      text: ''
+      # Filter on criteria
+      filters:
+        # The folders to display content from
+        folders:
+          - publication/abstracts
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      show_publication: true
+      show_authors: true
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
+      offset: 0
+      # Field to sort by, such as Date or Title
+      sort_by: 'Weight'
+      sort_ascending: true
+    design:
+      # Choose a listing view
+      view: custom-compact
+      # Choose single or dual column layout
+      columns: '1'
+      spacing:
+        padding: ['20px', '0', '0', '0'] # [Top, Right, Bottom, Left]
 ---
