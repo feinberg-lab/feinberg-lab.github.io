@@ -12,4 +12,6 @@ The workshop activities included educational sessions, with scientific and medic
 
 Recordings from first NexGen 7T Workshop can be viewed on YouTube
 
+https://youtube.com/playlist?list=PLEZEA4OebId2YitP-0UqMhOmXQICLBgWT&si=EjabsI6I8e2_UZ8S
+
 {{< youtube BHvwvTm3KWc >}}
