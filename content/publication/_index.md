@@ -82,7 +82,6 @@ sections:
         <p>Studying cortical networks using whole brain cerebral blood volume weighted imaging on the NexGen 7T. Alexander Beckett, Erica B Walker, Suvi Häkkinen, Oleksandr Khegai, An Vu, Renzo Huber, David Feinberg. OHBM, 2026.</p>
 
         <p>Accelerated 3D Zoomed GRASE for Mesoscale fMRI using Self-Supervised Reconstruction (DeepGRASE). Hyunseung RYU, Suvi Häkkinen, Alexander Beckett, Erica Walker, David A Feinberg, Suhyung Park. OHBM, 2026.</p>
-        </p>
 
         <p>Whole-brain, cerebral blood volume weighted imaging of cortical networks using the Next Generation (NexGen) 7T scanner. Alexander J. Beckett, Suvi Häkkinen, Erica B. Walker, Oleksandr Khegai, An T. Vu, Renzo Huber, David Feinberg. ISMRM, 2026.</p>
 
