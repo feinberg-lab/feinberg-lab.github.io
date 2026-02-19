@@ -4,30 +4,24 @@ type: landing
 
 sections:
   - block: markdown
-    id: nexgen-info
+    id: about
     content:
       title: ''
+      subtitle: ''
       text: |
-        <h2 class="join-header">NexGen 7T Scanner</h2>
-        <div class="gold-divider"></div>
-        <style>
-          /* Ensures the image doesn't overflow the new narrow width */
-          #nexgen-info img {
-            max-width: 100% !important;
-            height: auto;
-          }
-        </style>
-        <div class="lab-style-block">
-        <p>The NexGen 7T Scanner.. </p>
+        <div class="static-full-card">
+          <h2 class="join-header">NexGen 7T Scanner</h2>
+          <div class="gold-divider"></div>
         </div>
-
-        <!---
-        <div style="display: flex; justify-content: center; width: 100%;">
-        {{< figure src="projects.png" style="width: 80%;" >}}
+        <div class="static-card-text">
+          <p>The NexGen 7T scanner..</p>
         </div>
-        -->
-    design:
+        <div class="static-full-card">
+          <figure class="lab-basics-figure">
+            <img src="/images/scanner.jpg" class="static-card-img">
+          </figure>
+        </div>
+      design:
+        columns: '1' # Set to '2' if you want the title on the left and text on the right
       columns: '1'
-      spacing:
-        padding: ['40px', '0', '10px', '0']
 ---
