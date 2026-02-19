@@ -27,7 +27,7 @@ sections:
       text: |
         <div class="static-full-card">
           <figure class="lab-basics-figure">
-            <img src="/images/scanner.jpg" class="static-card-img">
+            <img src="/images/NexGen7Tscanner.jpg" class="static-card-img">
           </figure>
         </div>
         <div class="lab-style-block">
