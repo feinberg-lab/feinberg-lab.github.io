@@ -3,26 +3,72 @@ title: Welcome to the Feinberg Lab
 type: landing
 
 sections:
-  # BLOCK 1: Research Group Basics
   - block: markdown
     id: about
     content:
       title: ''
       subtitle: ''
       text: |
-        <h2 class="join-header">About</h2>
-        <div class="gold-divider"></div>
-        
-        <figure class="lab-basics-figure">
-          <img src="images/dwi.jpg" class="lab-basics-img">
-          <figcaption>The NEXGEN-7T Team at UC Berkeley.</figcaption>
-        </figure>
-
-        <div class="lab-style-block">
-        <p>This site provides information about David Feinberg's neuroscience lab at UC Berkeley.</p>
+        <div class="static-full-card">
+          <h2 class="join-header">About</h2>
+          <div class="gold-divider"></div>
         </div>
-    design:
-      columns: '1' # Set to '2' if you want the title on the left and text on the right
+        <div class="static-card-text">
+          <p>Feinberg Lab at UC Berkeley..</p>
+        </div>
+      design:
+        columns: '1' # Set to '2' if you want the title on the left and text on the right
+
+  - block: markdown
+    id: about
+    content:
+      title: ''
+      subtitle: ''
+      text: |
+        <div class="static-full-card">
+          <figure class="lab-basics-figure">
+            <img src="/images/scanner.jpg" class="static-card-img">
+          </figure>
+        </div>
+        <div class="static-card-text">
+          <p>Scanner..</p>
+        </div>
+      design:
+        columns: '1' # Set to '2' if you want the title on the left and text on the right
+
+  - block: markdown
+    id: about
+    content:
+      title: ''
+      subtitle: ''
+      text: |
+        <div class="static-full-card">
+          <figure class="lab-basics-figure">
+            <img src="/images/projects.png" class="static-card-img">
+          </figure>
+        </div>
+        <div class="static-card-text">
+          <p>Layer fMRI..</p>
+        </div>
+      design:
+        columns: '1' # Set to '2' if you want the title on the left and text on the right
+
+  - block: markdown
+    id: about
+    content:
+      title: ''
+      subtitle: ''
+      text: |
+        <div class="static-full-card">
+          <figure class="lab-basics-figure">
+            <img src="/images/dwi.jpg" class="static-card-img">
+          </figure>
+        </div>
+        <div class="static-card-text">
+          <p>Diffusion..</p>
+        </div>
+      design:
+        columns: '1' # Set to '2' if you want the title on the left and text on the right
 
   # BLOCK 2: Recent News
   - block: collection

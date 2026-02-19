@@ -1,3 +1,37 @@
+/* Container for each stacked card */
+.static-full-card {
+  width: 100%;
+  margin-bottom: 20px; /* Space between the two cards */
+  text-align: center;   /* Centers the heading and paragraph */
+}
+
+/* Make the image take the full width of the container */
+.static-card-img {
+  width: 100% !important;
+  max-width: 1000px;    /* Limits ultra-wide screens so it doesn't get too tall */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Style the text underneath */
+.static-card-text {
+  max-width: 800px;     /* Keeps text lines from being too long to read */
+  margin: 0 auto;       /* Centers the text block */
+  padding: 0 15px;
+  font-size: 0.85rem;            /* Slightly smaller font helps long titles fit */
+}
+
+/* Make the image pop */
+.lab-basics-img {
+  width: 100% !important;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* Adds a professional 'large image' feel */
+}
+
+
 /* 1. Center everything vertically so 1-line and 2-line items match */
 .navbar-nav {
   display: flex !important;
@@ -146,28 +180,6 @@ a:hover {
   font-style: italic;
   color: var(--text-muted) !important;
   margin-top: -10px !important;
-}
-
-/* --- 5. About Section Image --- */
-.lab-basics-figure {
-  float: right;
-  width: 300px;
-  margin: 0 0 20px 20px;
-}
-
-.lab-basics-img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 768px) {
-  .lab-basics-figure {
-    float: none;
-    margin: 0 auto 20px auto;
-    width: 100%;
-  }
 }
 
 /* --- 6. Contact Section (Consolidated Fixes) --- */
