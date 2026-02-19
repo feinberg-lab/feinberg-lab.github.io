@@ -1,3 +1,29 @@
+/* 1. Center everything vertically so 1-line and 2-line items match */
+.navbar-nav {
+  display: flex !important;
+  align-items: center !important; 
+  justify-content: flex-end !important;
+  gap: 5px; /* Adjust this to set the exact gap you want between buttons */
+}
+
+/* 2. Fix the spacing and text inside each link */
+.navbar-nav .nav-link {
+  line-height: 1.1 !important;   /* Pulls the two lines closer together */
+  padding: 8px 10px !important;  /* Balanced padding: [Top/Bottom] [Left/Right] */
+  text-align: center;
+  font-size: 0.85rem;            /* Slightly smaller font helps long titles fit */
+  display: flex;
+  align-items: center;           /* Centers text if it stays on one line */
+  min-height: 50px;              /* Ensures all tabs are the same height */
+  max-width: 150px;              /* Forces wrapping at a specific point */
+}
+
+/* 3. Optional: Hover effect that fits the new tighter layout */
+.navbar-nav .nav-item:hover {
+  background-color: rgba(0,0,0,0.05); /* Subtle grey background on hover */
+  border-radius: 4px;
+}
+
 /* --- 1. Global Branding & Variables --- */
 :root {
   --primary: #003262;       /* Berkeley Blue */
