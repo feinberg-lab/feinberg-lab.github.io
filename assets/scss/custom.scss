@@ -476,3 +476,13 @@ article.article-container p {
 /* Targets sub-headers (H2, H3) inside the news post */
 .article-style h2, .universal-wrapper h2 { font-size: 1.1rem !important; }
 .article-style h3, .universal-wrapper h3 { font-size: 1.0rem !important; }
+
+
+ /* Specific override to force italics on figure captions */
+.static-full-card figcaption,
+.lab-basics-figure figcaption,
+figcaption {
+  font-style: italic !important;
+  display: block !important;
+  color: var(--text-muted) !important;
+}
