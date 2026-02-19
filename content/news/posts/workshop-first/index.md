@@ -10,10 +10,8 @@ An ISMRM Endorsed Inaugural Workshop was held to mark the completion of the tech
  
 The workshop activities included educational sessions, with scientific and medical talks from the international team of MRI scientists who contributed to the NexGen 7T scanner project. 
 
-Recordings from first NexGen 7T Workshop can be viewed on YouTube
+Recordings from first NexGen 7T Workshop can be viewed on YouTube:
 
-https://youtube.com/playlist?list=PLEZEA4OebId2YitP-0UqMhOmXQICLBgWT&si=EjabsI6I8e2_UZ8S
-
-{{< youtube_enhanced id="BHvwvTm3KWc" title="NexGen 7T" playlistid="PLEZEA4OebId2YitP-0UqMhOmXQICLBgWT" >}}
+{{< youtube_enhanced id="BHvwvTm3KWc" title="Youtube - NexGen 7T Workshop" playlistid="PLEZEA4OebId2YitP-0UqMhOmXQICLBgWT" >}}
 
 
