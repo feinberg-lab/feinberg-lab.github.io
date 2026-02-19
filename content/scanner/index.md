@@ -13,7 +13,7 @@ sections:
           <h2 class="join-header">NexGen 7T Scanner</h2>
           <div class="gold-divider"></div>
         </div>
-        <div class="static-card-text">
+        <div class="lab-style-block">
           <p>The NexGen 7T scanner..</p>
         </div>
         <div class="static-full-card">

@@ -185,23 +185,6 @@ a:hover {
 
 /* --- 6. Contact Section (Consolidated Fixes) --- */
 
-/* Align header and divider to match the content width */
-#contact-section .section-heading {
-  max-width: 800px !important;
-  margin: 0 auto !important;
-  text-align: left !important;
-}
-
-#contact-section .row {
-  justify-content: center !important; 
-}
-
-#contact-section .col-12 {
-  max-width: 800px !important;
-  text-align: left !important;
-  padding: 0 20px !important;
-}
-
 /* Text Styling */
 #contact-section,
 #contact-section .contact-details li,
