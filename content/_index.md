@@ -13,7 +13,7 @@ sections:
           <h2 class="join-header">About</h2>
           <div class="gold-divider"></div>
         </div>
-        <div class="static-card-text">
+        <div class="lab-style-block">
           <p>Feinberg Lab at UC Berkeley..</p>
         </div>
       design:
@@ -30,7 +30,7 @@ sections:
             <img src="/images/scanner.jpg" class="static-card-img">
           </figure>
         </div>
-        <div class="static-card-text">
+        <div class="lab-style-block">
           <p>Scanner..</p>
         </div>
       design:
@@ -47,7 +47,7 @@ sections:
             <img src="/images/projects.png" class="static-card-img">
           </figure>
         </div>
-        <div class="static-card-text">
+        <div class="lab-style-block">
           <p>Layer fMRI..</p>
         </div>
       design:
@@ -64,7 +64,7 @@ sections:
             <img src="/images/dwi.jpg" class="static-card-img">
           </figure>
         </div>
-        <div class="static-card-text">
+        <div class="lab-style-block">
           <p>Diffusion..</p>
         </div>
       design:
