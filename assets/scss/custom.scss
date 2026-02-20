@@ -507,17 +507,16 @@ figcaption {
   color: var(--text-muted) !important;
 }
 
-
-/* High-visibility links for the NexGen 7T page only */
-#about .lab-style-block a {
-  color: #D9661F !important; /* A 'Deep Gold/Ochre' - part of Berkeley's secondary palette */
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
+/* Targeted override for the NexGen Info links */
+#nexgen-info .lab-style-block a,
+#nexgen-info .lab-style-block p a {
+  color: #D9661F !important; /* Berkeley Ochre/Medalist */
+  font-weight: 700 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
 }
 
-#about .lab-style-block a:hover {
-  color: var(--primary) !important; /* Swaps back to Berkeley Blue on hover */
-  text-decoration-thickness: 2px;
+#nexgen-info .lab-style-block a:hover {
+  color: #003262 !important; /* Back to Blue on hover */
+  background-color: rgba(217, 102, 31, 0.1); /* Subtle gold highlight */
 }

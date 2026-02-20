@@ -10,13 +10,7 @@ sections:
       text: |
         <h2 class="join-header">U24 Dissemination Project</h2>
         <div class="gold-divider"></div>
-        <style>
-          /* Ensures the image doesn't overflow the new narrow width */
-          #nexgen-info img {
-            max-width: 100% !important;
-            height: auto;
-          }
-        </style>
+
         <div class="lab-style-block">
         <p>The U24 Dissemination Project is an opportunity for researchers to submit projects for data collection on the NexGen 7T MRI scanner at UC Berkeley.</p>
 
