@@ -139,6 +139,29 @@ a:hover {
   color: var(--text-main);
 }
 
+/* Smaller subheader for internal sections */
+.section-sub-header {
+  color: var(--primary) !important;
+  font-size: 1.0rem !important; /* Smaller than the 1.2rem main title */
+  font-weight: 700 !important;
+  margin-top: 25px !important;
+  margin-bottom: 5px !important;
+  text-align: left !important;
+  text-transform: uppercase;   /* Optional: adds a professional 'journal' look */
+  letter-spacing: 0.5px;
+}
+
+/* A slightly thinner gold divider for sub-sections */
+.gold-divider-sm {
+  height: 2px;
+  width: 30px;
+  background-color: var(--gold);
+  margin-bottom: 15px !important;
+  border: none;
+  display: block;
+}
+
+
 /* --- 3. News & Publications --- */
 #news .section-heading,
 #publications .section-heading {
