@@ -14,10 +14,10 @@ sections:
           <div class="gold-divider"></div>
         </div>
         <div class="lab-style-block">
-          <p>Feinberg Lab at UC Berkeley..</p>
+          <p>Feinberg Lab at UC Berkeley. Mesoscale cortical layer fMRI. Diffusion Imaging.</p>
         </div>
       design:
-        columns: '1' # Set to '2' if you want the title on the left and text on the right
+        columns: '1'
 
   - block: markdown
     id: about
@@ -28,13 +28,11 @@ sections:
         <div class="static-full-card">
           <figure class="lab-basics-figure">
             <img src="/images/NexGen7Tscanner.jpg" class="static-card-img">
+            <figcaption>The NexGen 7T scanner housed in the  Feinberg Lab, Erwin Hahn MRI Laboratory, Brain Imaging Center, Helen Wills Neuroscience Institute, UC Berkeley.</figcaption>            
           </figure>
         </div>
-        <div class="lab-style-block">
-          <p>Scanner..</p>
-        </div>
       design:
-        columns: '1' # Set to '2' if you want the title on the left and text on the right
+        columns: '1'
 
   - block: markdown
     id: about
@@ -47,11 +45,8 @@ sections:
             <img src="/images/projects.png" class="static-card-img">
           </figure>
         </div>
-        <div class="lab-style-block">
-          <p>Layer fMRI..</p>
-        </div>
       design:
-        columns: '1' # Set to '2' if you want the title on the left and text on the right
+        columns: '1'
 
   - block: markdown
     id: about
@@ -64,13 +59,9 @@ sections:
             <img src="/images/dwi.jpg" class="static-card-img">
           </figure>
         </div>
-        <div class="lab-style-block">
-          <p>Diffusion..</p>
-        </div>
       design:
-        columns: '1' # Set to '2' if you want the title on the left and text on the right
+        columns: '1'
 
-  # BLOCK 2: Recent News
   - block: collection
     id: news
     content:
