@@ -46,9 +46,10 @@
 }
 
 /* 3. Optional: Hover effect that fits the new tighter layout */
-.navbar-nav .nav-item:hover {
-  background-color: rgba(0,0,0,0.05); /* Subtle grey background on hover */
+.navbar-nav .nav-item:hover .navbar-brand:hover {
+  background-color: #D9661F !important; /* Berkeley Ochre on hover */
   border-radius: 4px;
+  transition: color 0.2s ease-in-out;
 }
 
 /* --- 1. Global Branding & Variables --- */
@@ -98,6 +99,26 @@ a:hover {
   text-decoration: none !important;
 }
 
+.main-content a, 
+article a, 
+.universal-wrapper a {
+  color: #D9661F !important;      /* Berkeley Ochre as base color */
+  text-decoration: underline !important;
+  text-decoration-color: rgba(217, 102, 31, 0.4) !important; /* Softer underline */
+  text-underline-offset: 4px;
+  font-weight: 500;
+}
+
+/* Hover state for page links */
+.main-content a:hover, 
+article a:hover, 
+.universal-wrapper a:hover {
+  color: #003262 !important;      /* Dark Berkeley Blue on hover */
+  text-decoration-color: #003262 !important;
+  background-color: rgba(217, 102, 31, 0.1); /* Subtle gold highlight */
+}
+
+
 .btn-primary {
   background-color: var(--primary) !important;
   border-color: var(--primary) !important;
@@ -137,26 +158,6 @@ a:hover {
   font-size: var(--font-small) !important;
   line-height: 1.4;
   color: var(--text-main);
-}
-
-/* Smaller subheader for internal sections */
-.section-sub-header {
-  color: var(--primary) !important;
-  font-size: 1.0rem !important; /* Smaller than the 1.2rem main title */
-  font-weight: 700 !important;
-  margin-top: 25px !important;
-  margin-bottom: 5px !important;
-  text-align: left !important;
-}
-
-/* A slightly thinner gold divider for sub-sections */
-.gold-divider-sm {
-  height: 2px;
-  width: 30px;
-  background-color: var(--gold);
-  margin-bottom: 15px !important;
-  border: none;
-  display: block;
 }
 
 /* --- 3. News & Publications --- */
@@ -372,7 +373,6 @@ a:hover {
   }
 
 
-
   /* --- UNIVERSAL AUTHOR KILL-SWITCH --- */
 
 /* This targets ANY section where the ID contains 'pub' */
@@ -505,20 +505,6 @@ figcaption {
   font-style: italic !important;
   display: block !important;
   color: var(--text-muted) !important;
-}
-
-/* Targeted override for the NexGen Info links */
-#nexgen-info .lab-style-block a,
-#nexgen-info .lab-style-block p a {
-  color: #D9661F !important; /* Berkeley Ochre/Medalist */
-  font-weight: 500 !important;
-  text-decoration: underline !important;
-  text-underline-offset: 4px;
-}
-
-#nexgen-info .lab-style-block a:hover {
-  color: #003262 !important; /* Back to Blue on hover */
-  background-color: rgba(217, 102, 31, 0.1); /* Subtle gold highlight */
 }
 
 
