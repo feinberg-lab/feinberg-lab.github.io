@@ -18,7 +18,7 @@ sections:
               University of California, Berkeley<br>
               Berkeley, CA 94720-3370</p>
               <p><i class="fas fa-envelope style="color: #003262; margin-right: 10px;"></i> <a href="mailto:david.feinberg@berkeley.edu">david.feinberg@berkeley.edu</a></p>
-              <p><i class="fas fa-phone style="color: #003262; margin-right: 10px;"></i> (XXX)-XXX-XXXX</p>
+              <p><i class="fas fa-phone style="color: #003262; margin-right: 10px;"></i>(510) 664-9121</p>
             </div>
           </div>
 
