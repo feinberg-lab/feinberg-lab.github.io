@@ -520,3 +520,43 @@ figcaption {
   color: #003262 !important; /* Back to Blue on hover */
   background-color: rgba(217, 102, 31, 0.1); /* Subtle gold highlight */
 }
+
+
+/* Container for side-by-side layout */
+.side-by-side-container {
+  display: flex !important;
+  flex-direction: row !important; /* Forces horizontal */
+  flex-wrap: nowrap !important;  /* Prevents stacking on desktop */
+  gap: 30px;
+  align-items: flex-start;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Text side - 60% width */
+.side-content-text {
+  flex: 0 0 60% !important; 
+  text-align: left !important;
+}
+
+/* Map side - 40% width */
+.side-content-map {
+  flex: 0 0 calc(40% - 30px) !important;
+}
+
+/* Ensure the map iframe fills its container */
+.side-content-map iframe {
+  width: 100% !important;
+  display: block;
+}
+
+/* Mobile Fix: ONLY stack when the screen is very small */
+@media (max-width: 767px) {
+  .side-by-side-container {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+  .side-content-text, .side-content-map {
+    flex: 0 0 100% !important;
+  }
+}
