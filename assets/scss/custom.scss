@@ -39,6 +39,7 @@
   padding: 8px 10px !important;  /* Balanced padding: [Top/Bottom] [Left/Right] */
   text-align: center;
   font-size: 0.85rem;            /* Slightly smaller font helps long titles fit */
+  font-weight: 600 !important;
   display: flex;
   align-items: center;           /* Centers text if it stays on one line */
   min-height: 50px;              /* Ensures all tabs are the same height */
@@ -125,8 +126,8 @@ article a:hover,
 #nexgen-info a:hover,
 #news a:hover,
 .view-list-item a:hover {
-  color: #003262 !important;      
-  text-decoration-color: #003262 !important;
+  color: #0072CE !important;      
+  text-decoration-color: #0072CE !important;
 }
 
 /* --- 3. THE EXCEPTIONS (Social Icons & Buttons) --- */
