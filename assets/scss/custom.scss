@@ -88,34 +88,49 @@
   }
 }
 
-/* Force Global Link Colors */
-a, a:hover, a:visited, .nav-link, .article-title a {
-  color: var(--primary) !important;
-  transition: color 0.2s ease-in-out;
+/* --- 1. THE NAVBAR (Dark Orange Hover) --- */
+/* This targets the links at the very top of your site */
+.navbar-nav .nav-link, .navbar-brand {
+  color: var(--primary) !important; /* Default Berkeley Blue */
+  transition: all 0.2s ease;
 }
 
-a:hover {
-  color: #3B7EA1 !important; 
-  text-decoration: none !important;
+.navbar-nav .nav-link:hover, .navbar-brand:hover {
+  color: #D9661F !important; /* Berkeley Ochre (Dark Orange) */
+  background-color: transparent !important; /* Keeps it clean */
 }
 
+/* --- 2. THE BODY CONTENT (Orange Links, Blue Hover) --- */
+/* This targets the links inside your pages/posts */
 .main-content a, 
 article a, 
-.universal-wrapper a {
+.universal-wrapper a,
+.lab-style-block a,
+#nexgen-info a {
   color: #D9661F !important;      /* Berkeley Ochre as base color */
   text-decoration: underline !important;
-  text-decoration-color: rgba(217, 102, 31, 0.4) !important; /* Softer underline */
+  text-decoration-color: rgba(217, 102, 31, 0.4) !important;
   text-underline-offset: 4px;
   font-weight: 500;
+  transition: all 0.2s ease;
 }
 
-/* Hover state for page links */
+/* Hover state for page links: turns Dark Blue */
 .main-content a:hover, 
 article a:hover, 
-.universal-wrapper a:hover {
+.universal-wrapper a:hover,
+.lab-style-block a:hover,
+#nexgen-info a:hover {
   color: #003262 !important;      /* Dark Berkeley Blue on hover */
   text-decoration-color: #003262 !important;
-  background-color: rgba(217, 102, 31, 0.1); /* Subtle gold highlight */
+  background-color: rgba(217, 102, 31, 0.05) !important; /* Very subtle highlight */
+}
+
+/* --- 3. THE EXCEPTIONS (Social Icons & Buttons) --- */
+/* We don't want orange underlines on social media icons or buttons */
+.network-icon a, .btn, .btn a {
+  text-decoration: none !important;
+  background-color: transparent !important;
 }
 
 
