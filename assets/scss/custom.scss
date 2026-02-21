@@ -101,29 +101,32 @@
 }
 
 /* --- 2. THE BODY CONTENT (Orange Links, Blue Hover) --- */
-/* This targets the links inside your pages/posts */
+/* Update your page link block to include News items */
 .main-content a, 
 article a, 
 .universal-wrapper a,
 .lab-style-block a,
-#nexgen-info a {
-  color: #D9661F !important;      /* Berkeley Ochre as base color */
+#nexgen-info a,
+#news a,                      /* Targets the News section specifically */
+.view-list-item a,            /* Targets news item titles */
+.section-subheading a {       /* Targets "See all news" */
+  color: #D9661F !important;      
   text-decoration: underline !important;
   text-decoration-color: rgba(217, 102, 31, 0.4) !important;
   text-underline-offset: 4px;
   font-weight: 500;
-  transition: all 0.2s ease;
 }
 
-/* Hover state for page links: turns Dark Blue */
+/* Update the hover state for News items */
 .main-content a:hover, 
 article a:hover, 
 .universal-wrapper a:hover,
 .lab-style-block a:hover,
-#nexgen-info a:hover {
-  color: #003262 !important;      /* Dark Berkeley Blue on hover */
+#nexgen-info a:hover,
+#news a:hover,
+.view-list-item a:hover {
+  color: #003262 !important;      
   text-decoration-color: #003262 !important;
-  background-color: rgba(217, 102, 31, 0.05) !important; /* Very subtle highlight */
 }
 
 /* --- 3. THE EXCEPTIONS (Social Icons & Buttons) --- */
