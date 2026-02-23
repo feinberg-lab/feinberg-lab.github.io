@@ -1,5 +1,5 @@
 ---
-title: NexGen 7T MRI Workshop upcoming on March 13th
+title: NexGen 7T MRI Workshop Program announced
 date: 2026-02-02
 share: false  # social media buttons
 image:
@@ -8,16 +8,13 @@ image:
 
 Please join us for the NexGen 7T MRI Workshop at UC Berkeley on Friday, March 13, 2026. The workshop is designed to present state-of-the-art MRI research, welcome potential new users and collaborators, and showcase research successfully performed using the NexGen 7T scanner through the NIH BRAIN U24 Integration and Dissemination Initiative. Participants are invited to attend either in person on the UC Berkeley Campus or remotely.
 
-    <figure class="lab-basics-figure">
-      <img src="nexgen7tworkshop.png"  class="lab-basics-img">
-      <figcaption>Registration deadline: Friday, March 6, 2026</figcaption>
-    </figure>
+{{< figure library="1" src="nexgen7tworkshop.png" caption="Registration deadline: Friday, March 6, 2026" >}}
 
+Program details: <a href="https://docs.google.com/document/d/1a14EcH7qWCxNqzUXzmyN4-jRtTYbxaOHotH-gbWBCng/edit?tab=t.0" target="_blank">NexGen 7T Workshop Agenda</a>
 
-Program details: <a href="https://docs.google.com/document/d/1a14EcH7qWCxNqzUXzmyN4-jRtTYbxaOHotH-gbWBCng/edit?tab=t.0" target="_blank">NexGen 7T Workshop Agenda</a>.
-Registration: Registration for virtual attendance will open soon
-Remote access: Zoom link will be emailed to registered participants before the event date.
-Location (in person): LKS545, Li Ka Shing Center & Weill 177, Weill Hall, UC Berkeley Campus
+Registration: Registration for virtual attendance will open soon   
+Remote access: Zoom link will be emailed to registered participants before the event date.   
+Location (in person): LKS545, Li Ka Shing Center & Weill 177, Weill Hall, UC Berkeley Campus   
 
 The NexGen 7 Tesla MRI scanner at UC Berkeley is a one-of-a-kind resource built specifically for ultra-high-resolution structural and functional neuroimaging at the scale of cortical laminae and columnar neurocircuit organization (mesoscale). Developed by an international team led by Professor David Feinberg (UC Berkeley Department of Neuroscience), in partnership with Siemens and supported by the NIH BRAIN Initiative, UC Berkeley, and Weill Neurohub, the platform integrates multiple advances that deliver synergistic gains in speed, resolution, and MR signal.
 
