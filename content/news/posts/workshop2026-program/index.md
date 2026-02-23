@@ -8,13 +8,11 @@ image:
 
 Please join us for the NexGen 7T MRI Workshop at UC Berkeley on Friday, March 13, 2026. The workshop is designed to present state-of-the-art MRI research, welcome potential new users and collaborators, and showcase research successfully performed using the NexGen 7T scanner through the NIH BRAIN U24 Integration and Dissemination Initiative. Participants are invited to attend either in person on the UC Berkeley Campus or remotely.
 
-{{< figure library="1" src="nexgen7tworkshop.png" caption="Registration deadline: Friday, March 6, 2026" >}}
+{{< figure library="1" src="nexgen7tworkshop.png" caption="Registration deadline: Friday, March 11, 2026" >}}
 
 Program details: <a href="https://docs.google.com/document/d/1a14EcH7qWCxNqzUXzmyN4-jRtTYbxaOHotH-gbWBCng/edit?tab=t.0" target="_blank">NexGen 7T Workshop Agenda</a>
 
-Registration: Registration for virtual attendance will open soon   
-Remote access: Zoom link will be emailed to registered participants before the event date.   
-Location (in person): LKS545, Li Ka Shing Center & Weill 177, Weill Hall, UC Berkeley Campus   
+Registration for virtual attendance will open soon   
 
 The NexGen 7 Tesla MRI scanner at UC Berkeley is a one-of-a-kind resource built specifically for ultra-high-resolution structural and functional neuroimaging at the scale of cortical laminae and columnar neurocircuit organization (mesoscale). Developed by an international team led by Professor David Feinberg (UC Berkeley Department of Neuroscience), in partnership with Siemens and supported by the NIH BRAIN Initiative, UC Berkeley, and Weill Neurohub, the platform integrates multiple advances that deliver synergistic gains in speed, resolution, and MR signal.
 
