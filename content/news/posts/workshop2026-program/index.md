@@ -1,6 +1,6 @@
 ---
 title: NexGen 7T MRI Workshop Program announced
-date: 2026-02-02
+date: 2026-02-22
 share: false  # social media buttons
 image:
   focal_point: 'top'
@@ -24,6 +24,6 @@ As part of the NIH BRAIN U24 effort, we are building the infrastructure to suppo
 
 We hope you can attend and connect with the growing NexGen 7T user community. Please register by March 6, and feel free to share this invitation with colleagues who may be interested in ultra-high-resolution human neuroimaging and collaborative access to the NexGen 7T scanner.
 
-Sincerely,
-NexGen 7T MRI Team
+Sincerely,   
+NexGen 7T MRI Team   
 nexgen7T@berkeley.edu
