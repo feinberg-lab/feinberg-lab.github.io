@@ -18,7 +18,7 @@ role: Assistant Project Scientist
 
 user_groups: [Current Lab Members]
 
-weight: 3
+weight: 4
 
 # Organizations/Affiliations
 organizations:

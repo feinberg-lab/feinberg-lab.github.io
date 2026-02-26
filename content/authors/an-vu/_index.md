@@ -1,28 +1,28 @@
 ---
 # Display name
-title: Erica Walker, MA
+title: An Vu, PhD
 
 # Full name (for SEO)
-first_name: Erica
-last_name: Walker
+first_name: An
+last_name: Vu
 
 # Username (this should match the folder name)
 authors:
-  - Erica-walker
+  - an-vu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Research Assistant
+role: Collaborator
+
+weight: 3
 
 user_groups: [Current Lab Members]
 
-weight: 5
-
 # Organizations/Affiliations
 organizations:
-  - name: AMRIT, UC Berkeley
+  - name: UCSF, SFVAHCS
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -70,5 +70,4 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
-
 ---
