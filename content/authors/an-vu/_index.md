@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Collaborator
+role: ''
 
 weight: 3
 
