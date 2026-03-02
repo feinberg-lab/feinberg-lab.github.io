@@ -16,7 +16,7 @@ superuser: false
 # Role/position
 role: 'Assistant Professor, UCSF'
 
-weight: 5
+weight: 6
 
 user_groups: [Current Lab Members]
 
