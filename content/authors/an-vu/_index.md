@@ -14,9 +14,9 @@ authors:
 superuser: false
 
 # Role/position
-role: ''
+role: 'Assistant Professor, UCSF'
 
-weight: 3
+weight: 5
 
 user_groups: [Current Lab Members]
 
