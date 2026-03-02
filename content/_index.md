@@ -13,9 +13,9 @@ sections:
           <h2 class="join-header">About</h2>
           <div class="gold-divider"></div>
         </div>
-        <div class="lab-style-block">
-          <p>Feinberg Lab at UC Berkeley. Mesoscale cortical layer fMRI. Diffusion Imaging.</p>
-        </div>
+#        <div class="lab-style-block">
+#          <p>Feinberg Lab at UC Berkeley. </p>
+#        </div>
       design:
         columns: '1'
 
@@ -43,7 +43,8 @@ sections:
         <div class="static-full-card">
           <figure class="lab-basics-figure">
             <img src="/images/projects.png" class="static-card-img">
-          </figure>
+            <figcaption>Mesoscale cortical layer fMRI.</figcaption>            
+            </figure>
         </div>
       design:
         columns: '1'
@@ -57,7 +58,8 @@ sections:
         <div class="static-full-card">
           <figure class="lab-basics-figure">
             <img src="/images/dwi.jpg" class="static-card-img">
-          </figure>
+            <figcaption>Diffusion Imaging.</figcaption>  
+           </figure>
         </div>
       design:
         columns: '1'
