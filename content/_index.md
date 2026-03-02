@@ -42,21 +42,6 @@ sections:
       text: |
         <div class="static-full-card">
           <figure class="lab-basics-figure">
-            <img src="/images/projects.png" class="static-card-img">
-            <figcaption>Mesoscale cortical layer fMRI.</figcaption>            
-            </figure>
-        </div>
-      design:
-        columns: '1'
-
-  - block: markdown
-    id: about
-    content:
-      title: ''
-      subtitle: ''
-      text: |
-        <div class="static-full-card">
-          <figure class="lab-basics-figure">
             <img src="/images/dwi.jpg" class="static-card-img">
             <figcaption>Diffusion Imaging.</figcaption>  
            </figure>
