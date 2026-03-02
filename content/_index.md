@@ -11,7 +11,7 @@ sections:
       text: |
         <div class="static-full-card">
           <figure class="lab-basics-figure">
-            <img src="/images/n7t.png" class="static-card-img">      
+            <img src="/images/n7t_b.png" class="static-card-img">      
           </figure>
         </div>
       design:
