@@ -10,10 +10,18 @@ sections:
       text: |
         <div class="lab-style-block">
 
-        <div style="margin-bottom: 30px;">
+          <div style="margin-bottom: 30px;">
           <h2 class="join-header"><i class="fas fa-magnet" style="color: #003262; margin-right: 10px;"></i> NexGen 7T Hardware Engineering</h2>
           <div class="gold-divider"></div>            
             <p>The core of our lab focuses on the physical limits of MRI. By developing asymmetric gradient coils that reach 200 mT/m, we have moved beyond the capabilities of standard commercial systems. This hardware allows us to encode spatial information at a grain size previously impossible in humans, overcoming traditional constraints of Signal-to-Noise Ratio (SNR).</p>
+          </div>
+
+          <div class="static-full-card">
+          <figure class="lab-basics-figure">
+            <img src="/images/scanner.jpg" class="static-card-img">
+            <figcaption>NexGen 7T gradient coil and receiver array hardware.</figcaption>            
+          </figure>
+          </div>
           </div>
 
           <div style="margin-bottom: 30px;">

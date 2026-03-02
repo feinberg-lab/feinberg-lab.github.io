@@ -37,11 +37,20 @@ sections:
 
         <div class="static-full-card">
           <figure class="lab-basics-figure">
-            <img src="/images/scanner.jpg" class="static-card-img">
-            <figcaption>NexGen 7T gradient coil and receiver array hardware.</figcaption>            
+            <img src="/images/NexGen7Tscanner.jpg" class="static-card-img">
+            <figcaption>The NexGen 7T scanner housed in the  Feinberg Lab, Erwin Hahn MRI Laboratory, Brain Imaging Center, Helen Wills Neuroscience Institute, UC Berkeley.</figcaption>            
           </figure>
         </div>
-      design:
-        columns: '1' # Set to '2' if you want the title on the left and text on the right
-      columns: '1'
+        design:
+          columns: '1'
+
+#        <div class="static-full-card">
+#          <figure class="lab-basics-figure">
+#            <img src="/images/scanner.jpg" class="static-card-img">
+#            <figcaption>NexGen 7T gradient coil and receiver array hardware.</figcaption>            
+#          </figure>
+#        </div>
+#      design:
+#        columns: '1' # Set to '2' if you want the title on the left and text on the right
+#      columns: '1'
 ---
