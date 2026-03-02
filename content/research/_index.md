@@ -28,12 +28,14 @@ sections:
           <h2 class="join-header"><i class="fas fa-layer-group" style="color: #003262; margin-right: 10px;"></i> Laminar & Columnar Functional Imaging</h2>
           <div class="gold-divider"></div>            
             <p>We are pioneering techniques to resolve activity within the 2-3mm thickness of the human cerebral cortex. By distinguishing between the superficial, middle, and deep layers of the gray matter, we can differentiate between "bottom-up" sensory inputs and "top-down" cognitive feedback.</p>
+            <p>The NexGen 7T system currently has the highest-performance head gradients in a human 7T MRI scanner, creating a new operating regime for functional MRI and diffusion MRI. The scanner routinely performs functional imaging studies at 0.35–0.85 mm isotropic spatial resolution to reveal cortical layer functional activity, and achieves unprecedented high resolution in human brain functional imaging at 7T.</p>
           </div>
 
           <div style="margin-bottom: 30px;">
           <h2 class="join-header"><i class="fas fa-project-diagram" style="color: #003262; margin-right: 10px;"></i> Diffusion Imaging</h2>
           <div class="gold-divider"></div>            
             <p>The NexGen 7T system currently has the highest-performance head gradients in a human 7T MRI scanner, creating a new operating regime for diffusion MRI. This regime supports ultra-high b-values while preserving SNR and spatial resolution.</p>
+            <p>Emerging results on the NexGen 7T show that combining ultra-high field strength with high-performance gradients improves SNR efficiency and enables simultaneous gains in both spatial and angular resolution of diffusion imaging beyond current state-of-the-art 3T diffusion scanners and 7T scanners. By optimizing the hardware of the NexGen 7T scanner with high-performance gradients and larger receiver arrays, the new diffusion encoding regimes yield substantial gains in tractography fidelity and microstructural specificity beyond what is achievable on current state-of-the-art 3T and 7T scanners. The NexGen 7T scanner achieves robust mapping of human brain connectivity and microstructure at spatial and biophysical scales critical to the study of neural circuitry and disease.</p>
           </div>
 
           <div style="margin-bottom: 30px;">

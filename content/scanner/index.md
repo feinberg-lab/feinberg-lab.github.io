@@ -20,22 +20,6 @@ sections:
         </div>
 
         <div class="static-full-card">
-          <h2 class="join-header">Functional MRI</h2>
-          <div class="gold-divider"></div>
-        </div>
-        <div class="lab-style-block">
-          <p>The NexGen 7T system currently has the highest-performance head gradients in a human 7T MRI scanner, creating a new operating regime for functional MRI and diffusion MRI. The scanner routinely performs functional imaging studies at 0.35–0.85 mm isotropic spatial resolution to reveal cortical layer functional activity, and achieves unprecedented high resolution in human brain functional imaging at 7T.</p>
-        </div>
-
-        <div class="static-full-card">
-          <h2 class="join-header">Diffusion Imaging</h2>
-          <div class="gold-divider"></div>
-        </div>
-        <div class="lab-style-block">
-          <p>Emerging results on the NexGen 7T show that combining ultra-high field strength with high-performance gradients improves SNR efficiency and enables simultaneous gains in both spatial and angular resolution of diffusion imaging beyond current state-of-the-art 3T diffusion scanners and 7T scanners. By optimizing the hardware of the NexGen 7T scanner with high-performance gradients and larger receiver arrays, the new diffusion encoding regimes yield substantial gains in tractography fidelity and microstructural specificity beyond what is achievable on current state-of-the-art 3T and 7T scanners. The NexGen 7T scanner achieves robust mapping of human brain connectivity and microstructure at spatial and biophysical scales critical to the study of neural circuitry and disease.</p>
-        </div>
-
-        <div class="static-full-card">
           <figure class="lab-basics-figure">
             <img src="/images/NexGen7Tscanner.jpg" class="static-card-img">
             <figcaption>The NexGen 7T scanner housed in the  Feinberg Lab, Erwin Hahn MRI Laboratory, Brain Imaging Center, Helen Wills Neuroscience Institute, UC Berkeley.</figcaption>            
