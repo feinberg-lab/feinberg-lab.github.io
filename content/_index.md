@@ -10,12 +10,10 @@ sections:
       subtitle: ''
       text: |
         <div class="static-full-card">
-          <h2 class="join-header">About</h2>
-          <div class="gold-divider"></div>
+          <figure class="lab-basics-figure">
+            <img src="/images/n7t.png" class="static-card-img">      
+          </figure>
         </div>
-#        <div class="lab-style-block">
-#          <p>Feinberg Lab at UC Berkeley. </p>
-#        </div>
       design:
         columns: '1'
 
@@ -26,10 +24,11 @@ sections:
       subtitle: ''
       text: |
         <div class="static-full-card">
-          <figure class="lab-basics-figure">
-            <img src="/images/NexGen7Tscanner.jpg" class="static-card-img">
-            <figcaption>The NexGen 7T scanner housed in the  Feinberg Lab, Erwin Hahn MRI Laboratory, Brain Imaging Center, Helen Wills Neuroscience Institute, UC Berkeley.</figcaption>            
-          </figure>
+          <h2 class="join-header">About</h2>
+          <div class="gold-divider"></div>
+        </div>
+        <div class="lab-style-block">
+          <p>Feinberg Lab at UC Berkeley... </p>
         </div>
       design:
         columns: '1'
