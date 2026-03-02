@@ -9,7 +9,6 @@ sections:
       subtitle: ''
       text: |
         <div class="lab-style-block">
-
           <div style="margin-bottom: 30px;">
           <h2 class="join-header"><i class="fas fa-magnet" style="color: #003262; margin-right: 10px;"></i> NexGen 7T Hardware Engineering</h2>
           <div class="gold-divider"></div>            
@@ -55,7 +54,8 @@ sections:
           </div>
         </div>
 
-        <div style="margin-bottom: 30px;">
+        <div class="lab-style-block">
+          <div style="margin-bottom: 30px;">
           <h2 class="join-header"><i class="fas fa-wave-square" style="color: #003262; margin-right: 10px;"></i> SMS and Multiband Innovation</h2>
           <div class="gold-divider"></div>            
             <p>Our lab developed the Simultaneous Multi-Slice (SMS) and Multiband techniques that have become the global standard for the Human Connectome Project. We continue to innovate in "multiplexed" imaging, allowing for sub-second whole-brain acquisitions.</p>
@@ -67,7 +67,6 @@ sections:
             <figcaption>Diffusion Imaging.</figcaption>  
           </figure>
           </div>
-
         </div>
     design:
       columns: '1'
