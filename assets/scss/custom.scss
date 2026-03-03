@@ -720,6 +720,8 @@ figcaption {
   border-bottom: none !important;     /* Removes any theme-specific borders */
   color: var(--primary) !important;
   font-weight: 600 !important;
+  margin-bottom: 0px !important; /* Removes the gap below the title */
+  padding-bottom: 0px !important;
 }
 
 /* Force authors to be plain text and small as well */
@@ -729,7 +731,22 @@ figcaption {
   text-decoration: none !important;
   pointer-events: none !important;
   cursor: default !important;
-  font-size: 0.72rem !important;
+  font-size: 0.75rem !important;
+}
+
+/* Targets the author list's top margin */
+.pub-list-item .article-metadata,
+.view-citation .article-metadata,
+.view-compact .article-metadata,
+.pub-authors {
+  margin-top: -2px !important; /* Pulls the authors slightly closer to the title */
+  padding-top: 0px !important;
+  display: block !important;
+}
+
+/* Adjust the button spacing below the authors if they feel too close now */
+.btn-links {
+  margin-top: 5px !important;
 }
 
 /* Ensure nothing happens when hovering over these titles */
