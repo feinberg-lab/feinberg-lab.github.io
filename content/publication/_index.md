@@ -47,7 +47,7 @@ sections:
         padding: ['0', '0', '0', '0']
 
   - block: markdown
-    id: scholar-footer
+    id: nexgen-info
     content:
       title: ''
       text: |
