@@ -772,9 +772,17 @@ div#publications a:hover {
 .view-citation .article-metadata,
 .view-compact .article-metadata,
 .pub-authors {
-  margin-top: -2px !important; /* Pulls the authors slightly closer to the title */
+  margin-top: 5px !important; /* Pulls the authors slightly closer to the title */
   padding-top: 0px !important;
   display: block !important;
+  line-height: 1.2 !important;   /* Ensures the author lines themselves aren't too tall */
+}
+
+/* Ensure the title doesn't force its own extra space */
+.pub-list-item .article-title,
+.view-citation .article-title,
+.view-compact .article-title {
+  margin-bottom: 0px !important; 
 }
 
 /* Adjust the button spacing below the authors if they feel too close now */
@@ -805,7 +813,7 @@ div#publications a:hover {
 .btn-links .btn:hover, 
 .pub-list-item .btn-outline-primary:hover,
 .pub-list-item .btn:hover {
-  background-color: var(--primary) !important; /* Berkeley Blue */
+  background-color: #FDB515; !important; /* Berkeley Blue */
   color: #ffffff !important;                   /* Keep text white */
   text-decoration: none !important;            /* No underlines */
   border-color: var(--primary) !important;
