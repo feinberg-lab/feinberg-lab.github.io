@@ -1570,3 +1570,33 @@ div#publications a:hover {
     max-width: 100% !important;
   }
 }
+
+/* --- 21. SEAMLESS BLACK BANNER --- */
+
+/* Targets the section background */
+#about-full-image {
+  background-color: #000000 !important;
+}
+
+/* Center the image and limit its height */
+.banner-wrapper-black {
+  background-color: #000000;
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-wrapper-black img {
+  max-height: 400px !important; /* Limits the "hugeness" */
+  width: auto !important;       /* Allows it to maintain aspect ratio */
+  max-width: 100% !important;   /* Ensures it doesn't overflow on small screens */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Remove any theme-default white borders or shadows */
+#about-full-image .full-width-bleed {
+  margin: 0 !important;
+  background-color: #000000 !important;
+}

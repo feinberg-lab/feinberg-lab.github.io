@@ -4,18 +4,20 @@ type: landing
 
 sections:
   - block: markdown
-    id: about-full-image  # Unique ID to target with CSS
+    id: about-full-image
     content:
       title: ''
-      subtitle: ''
       text: |
-        <div class="full-width-bleed">
-          <img src="/images/n7t_b.png" alt="NexGen 7T Banner">
+        <div class="banner-wrapper-black">
+          <div class="full-width-bleed">
+            <img src="/images/n7t_b.png" alt="NexGen 7T Banner">
+          </div>
         </div>
     design:
-      columns: '1'
+      background:
+        color: '#000000' # This sets the Hugo block background to black
       spacing:
-        padding: ['0', '0', '0', '0'] # Forces the block to have zero internal spacing
+        padding: ['0', '0', '0', '0']
 
   - block: markdown
     id: about
