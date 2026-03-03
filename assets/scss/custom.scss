@@ -618,3 +618,15 @@ figcaption {
     margin: 0 0 20px 0 !important;
   }
 }
+
+/* Specific fix for the NexGen 7T page dividers */
+.lab-style-block .gold-divider {
+  height: 4px;
+  width: 60px !important;    /* Forces it back to the short bar look */
+  background-color: #FDB515; /* California Gold */
+  margin: 10px 0 20px 0 !important;
+  border: none;
+  display: block !important;
+  clear: both !important;    /* Ensures it stays on its own line above the image/text */
+  float: none !important;    /* Prevents it from trying to wrap with the image */
+}

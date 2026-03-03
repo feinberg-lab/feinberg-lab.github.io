@@ -53,7 +53,7 @@ sections:
 
         <div class="lab-style-block">
           <h2 class="join-header"><i class="fas fa-wave-square" style="color: #003262; margin-right: 10px;"></i> SMS and Multiband Innovation</h2>
-          <div class="gold-divider)</div>            
+          <div class="gold-divider></div>            
 
           <div class="side-by-side-content">
             <figure class="lab-basics-figure figure-left-small">
