@@ -1601,44 +1601,43 @@ div#publications a:hover {
   margin: 0 auto !important;   /* Standard centering */
 }
 
-/* --- 23. ALTERNATING & VERTICALLY CENTERED BLOCKS --- */
+/* --- 23. UPDATED VERTICAL ALIGNMENT --- */
 
 .side-by-side-content {
   display: flex !important;
   gap: 40px;
-  align-items: center; /* This centers the image and text vertically relative to each other */
+  /* 'center' aligns the midpoints of the image and the text block */
+  align-items: center !important; 
   margin-bottom: 60px;
   width: 100%;
 }
 
-/* Default: Image on Left, Text on Right */
+/* Remove default top margins that push the image or text down */
+.side-by-side-content .figure-column figure,
+.side-by-side-content .text-column p:first-child {
+  margin-top: 0 !important;
+}
+
 .side-by-side-content .figure-column {
-  flex: 0 0 40%; 
+  flex: 0 0 40%;
+  /* Ensures the figure container itself doesn't have extra height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .side-by-side-content .text-column {
   flex: 1;
+  /* This ensures the text block is treated as one solid unit for centering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* The Magic Trick: Select every second lab-style-block and reverse the flex direction */
-.lab-style-block:nth-child(even) .side-by-side-content {
-  flex-direction: row-reverse !important;
-}
-
-/* Ensure images don't get too tall when centered */
+/* Standardize image behavior */
 .side-by-side-content .figure-column img {
   width: 100% !important;
   height: auto !important;
-  max-height: 350px;
-  object-fit: contain; /* Keeps the full hardware visible without cropping */
+  display: block;
   border-radius: 8px;
-}
-
-/* Mobile: Stack normally on small screens */
-@media (max-width: 768px) {
-  .side-by-side-content, 
-  .lab-style-block:nth-child(even) .side-by-side-content {
-    flex-direction: column !important;
-    gap: 20px;
-  }
 }
