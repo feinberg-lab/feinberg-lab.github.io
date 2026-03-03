@@ -55,7 +55,7 @@ sections:
             </div>
             <div class="text-column">
               <p>The NexGen 7T system currently has the highest-performance head gradients in a human 7T MRI scanner, creating a new operating regime for diffusion MRI. This regime supports ultra-high b-values while preserving SNR and spatial resolution.</p>
-              <p>Emerging results on the NexGen 7T show that combining ultra-high field strength with high-performance gradients improves SNR efficiency and enables simultaneous gains in both spatial and angular resolution of diffusion imaging beyond current state-of-the-art 3T diffusion scanners and 7T scanners. By optimizing the hardware with high-performance gradients and larger receiver arrays, the new diffusion encoding regimes yield substantial gains in tractography fidelity and microstructural specificity.</p>
+              <p>Emerging results on the NexGen 7T show that combining ultra-high field strength with high-performance gradients improves SNR efficiency and enables simultaneous gains in both spatial and angular resolution of diffusion imaging beyond current state-of-the-art 3T diffusion scanners and 7T scanners.</p>
             </div>
           </div>
         </div>
