@@ -565,3 +565,36 @@ figcaption {
     flex: 0 0 100% !important;
   }
 }
+
+
+/* Half-width figure aligned to the right */
+.figure-right {
+  float: right;
+  width: 48%; /* Slightly less than 50% for breathing room */
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+/* Half-width figure aligned to the left */
+.figure-left {
+  float: left;
+  width: 48%;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+/* Fix for mobile: stack images back to full width */
+@media (max-width: 768px) {
+  .figure-right, .figure-left {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+
+/* Ensure the next header doesn't get pulled up into the float */
+.lab-style-block {
+  clear: both;
+  overflow: hidden; /* Contains the floated images within the block */
+  padding-bottom: 40px;
+}
