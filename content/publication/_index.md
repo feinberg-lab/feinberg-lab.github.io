@@ -47,7 +47,7 @@ sections:
         padding: ['0', '0', '0', '0']
 
   - block: markdown
-    id: nexgen-info
+    id: google-scholar-info
     content:
       title: ''
       text: |

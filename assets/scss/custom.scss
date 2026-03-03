@@ -1454,67 +1454,61 @@ figcaption {
 
 /* --- 18. TRIPLE-LOCK LINK DESTRUCTION (PUBLICATIONS ONLY) --- */
 
-/* 1. Kill the Title Links */
+/* 1. Kill the Title Links - Now Black & Semibold */
 section#publications .pub-list-item h3 a,
 section#publications .article-title a,
 div#publications .view-citation .article-title a,
 div#publications .view-compact .article-title a {
-  color: var(--primary) !important;   /* Force Berkeley Blue */
-  text-decoration: none !important;   /* Kill the underline */
-  pointer-events: none !important;    /* Disable the click */
-  cursor: default !important;         /* Remove the hand icon */
-  border-bottom: none !important;     /* Remove any hidden theme borders */
+  color: #000000 !important;         /* Pure Black */
+  font-weight: 600 !important;       /* Semibold */
+  text-decoration: none !important;   /* No underlines */
+  pointer-events: none !important;    /* Non-clickable */
+  cursor: default !important;         
+  border-bottom: none !important;     
 }
 
-/* 2. Kill the Author Links and keep them on one line */
+/* 2. Kill the Author Links (Remain Gray/Small) */
 section#publications .article-metadata a,
 section#publications .pub-authors a,
 div#publications .article-metadata span,
 div#publications .pub-authors span {
-  color: var(--text-muted) !important; /* Professional Gray */
-  text-decoration: none !important;    /* Kill underline */
-  pointer-events: none !important;     /* Disable click */
+  color: var(--text-muted) !important; 
+  text-decoration: none !important;    
+  pointer-events: none !important;     
   cursor: default !important;
-  display: inline !important;          /* Force them to stay side-by-side */
+  display: inline !important;          
   font-size: 0.72rem !important;
+  font-weight: 400 !important;       /* Ensure authors aren't bold */
 }
 
-/* 3. Global hover reset for this section */
+/* 3. Global hover reset for this section - No color change on hover */
 section#publications a:hover, 
 div#publications a:hover {
-  color: inherit !important;
+  color: #000000 !important;
   text-decoration: none !important;
 }
 
-/* --- 3. RECENT ABSTRACTS (MANUAL LIST) --- */
-/* Target only the abstracts on the bottom of the Pubs page */
+/* --- 19. RECENT ABSTRACTS (MANUAL LIST) --- */
 #nexgen-info .lab-style-block p {
   font-size: 0.78rem !important;
   line-height: 1.25 !important;
   margin-bottom: 12px !important;
 }
 
-/* Targets the author list's top margin */
+/* --- 20. PUBLICATION SPACING & BUTTONS --- */
+
 .pub-list-item .article-metadata,
 .view-citation .article-metadata,
 .view-compact .article-metadata,
 .pub-authors {
-  margin-top: 5px !important; /* Pulls the authors slightly closer to the title */
+  margin-top: 5px !important;    /* Clean gap between black title and gray authors */
   padding-top: 0px !important;
   display: block !important;
-  line-height: 1.2 !important;   /* Ensures the author lines themselves aren't too tall */
+  line-height: 1.2 !important;   
 }
 
-/* Ensure the title doesn't force its own extra space */
-.pub-list-item .article-title,
-.view-citation .article-title,
-.view-compact .article-title {
-  margin-bottom: 0px !important; 
-}
-
-/* Adjust the button spacing below the authors if they feel too close now */
 .btn-links {
-  margin-top: 5px !important;
+  margin-top: 5px !important;   /* Space above PDF/Cite buttons */
 }
 
 /* Ensure nothing happens when hovering over these titles */
