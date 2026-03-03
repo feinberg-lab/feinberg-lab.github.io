@@ -679,7 +679,7 @@ figcaption {
 .view-citation .article-title,
 .view-compact .article-title {
   font-size: 0.85rem !important; /* Smaller, crisp title */
-  font-weight: 800 !important;
+  font-weight: 600 !important;
   margin-bottom: 0px !important;
 }
 
@@ -687,15 +687,15 @@ figcaption {
 .pub-list-item .article-metadata,
 .pub-authors,
 .article-style {
-  font-size: 0.78rem !important; /* Smaller author text */
-  line-height: 1.25 !important;   /* Pulls lines closer together */
+  font-size: 0.75rem !important; /* Smaller author text */
+  line-height: 1 !important;   /* Pulls lines closer together */
   color: #000000 !important;
   margin-top: 0 !important;
 }
 
 /* 2. Target the Manual "Recent Abstracts" block */
 #nexgen-info .lab-style-block p {
-  font-size: 0.72rem !important; 
+  font-size: 0.75rem !important; 
   line-height: 1.25 !important;
   margin-bottom: 12px !important; /* Space between individual abstracts */
   color: var(--text-main);
@@ -718,7 +718,7 @@ figcaption {
   cursor: default !important;         /* Keeps the arrow cursor, not the hand */
   border-bottom: none !important;     /* Removes any theme-specific borders */
   color: var(--primary) !important;
-  font-weight: 800 !important;
+  font-weight: 600 !important;
 }
 
 /* Force authors to be plain text and small as well */
