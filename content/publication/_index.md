@@ -31,6 +31,8 @@ sections:
         <div class="gold-divider"></div>
         
         <div class="lab-style-block">
+          <p><strong>Evaluation of Ultra-high b-value diffusion MRI on the NexGen 7T scanner with high-performance head gradients.</strong> David A. Feinberg, Erica Walker, Oleksandr Khegai, Alexander J.S. Beckett, An Thanh Vu. ISMRM, 2026.</p>
+          
           <p><strong>Whole-brain, cerebral blood volume weighted imaging optimized for the study of cortical networks on NexGen 7T scanner.</strong> Alexander J. Beckett, Suvi Häkkinen, Erica B. Walker, Oleksandr Khegai, An T. Vu, Renzo Huber, David Feinberg. ISMRM, 2026.</p>
 
           <p><strong>Studying cortical networks using whole brain cerebral blood volume weighted imaging on the NexGen 7T.</strong> Alexander Beckett, Erica B Walker, Suvi Häkkinen, Oleksandr Khegai, An Vu, Renzo Huber, David Feinberg. OHBM, 2026.</p>
