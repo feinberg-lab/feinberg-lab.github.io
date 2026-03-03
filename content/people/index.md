@@ -31,7 +31,7 @@ sections:
       show_social: false
       show_bio: false
       show_summary: true
-      columns: '1'
+      columns: '2'
       background:
         color: '#ffffff'
       spacing:
