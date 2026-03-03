@@ -725,34 +725,38 @@ figcaption {
   font-size: var(--font-tiny) !important;
 }
 
-/* --- 2. SURGICAL LINK KILLER (PUBLICATIONS ONLY) --- */
+/* --- 18. TRIPLE-LOCK LINK DESTRUCTION (PUBLICATIONS ONLY) --- */
 
-/* Targets the container, keeping it below the title */
-#publications .article-metadata,
-#publications .pub-authors {
-  display: block !important;       /* Keeps the WHOLE group on a new line */
-  margin-top: -2px !important;     /* Pulls the group closer to the title */
-  line-height: 1.2 !important;
+/* 1. Kill the Title Links */
+section#publications .pub-list-item h3 a,
+section#publications .article-title a,
+div#publications .view-citation .article-title a,
+div#publications .view-compact .article-title a {
+  color: var(--primary) !important;   /* Force Berkeley Blue */
+  text-decoration: none !important;   /* Kill the underline */
+  pointer-events: none !important;    /* Disable the click */
+  cursor: default !important;         /* Remove the hand icon */
+  border-bottom: none !important;     /* Remove any hidden theme borders */
 }
 
-/* Targets the individual authors INSIDE the container */
-#publications .article-metadata a,
-#publications .article-metadata span,
-#publications .pub-authors a,
-#publications .pub-authors span {
-  display: inline !important;      /* Forces names to stay on the SAME line */
-  pointer-events: none !important; /* Disables links */
+/* 2. Kill the Author Links and keep them on one line */
+section#publications .article-metadata a,
+section#publications .pub-authors a,
+div#publications .article-metadata span,
+div#publications .pub-authors span {
+  color: var(--text-muted) !important; /* Professional Gray */
+  text-decoration: none !important;    /* Kill underline */
+  pointer-events: none !important;     /* Disable click */
   cursor: default !important;
-  text-decoration: none !important;
-  color: var(--text-muted) !important;
+  display: inline !important;          /* Force them to stay side-by-side */
   font-size: 0.72rem !important;
 }
 
-/* Add a comma or separator spacing if the theme removed them */
-#publications .article-metadata a:not(:last-child):after,
-#publications .pub-authors a:not(:last-child):after {
-  content: ", ";
-  display: inline;
+/* 3. Global hover reset for this section */
+section#publications a:hover, 
+div#publications a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 /* --- 3. RECENT ABSTRACTS (MANUAL LIST) --- */
