@@ -903,7 +903,7 @@ article a:hover,
 .lab-style-block p,
 .my-custom-authors {
   font-size: var(--font-small) !important;
-  line-height: 1.4;
+  line-height: 1.25;
   color: var(--text-main);
 }
 
@@ -1128,7 +1128,7 @@ html body [id*="pub"] .pub-authors,
 html body [id*="pub"] span.article-metadata,
 html body [id*="pub"] div.article-metadata,
 html body [id*="pub"] .author-link {
-  font-size: 0.68rem !important;     /* Extra small */
+  font-size: 0.75rem !important;     /* Extra small */
   color: #666 !important;          /* DIAGNOSTIC COLOR - Change to #666 after it works */
   pointer-events: none !important;    /* Disable clicks */
   cursor: default !important;
@@ -1139,7 +1139,7 @@ html body [id*="pub"] .author-link {
 html body [id*="pub"] a[href*="/author"],
 html body [id*="pub"] .article-metadata a,
 html body [id*="pub"] .pub-authors a {
-  font-size: 0.68rem !important;
+  font-size: 0.75rem !important;
   color: inherit !important;          /* Forces it to take the Magenta/Gray from above */
   pointer-events: none !important;    /* Hard-disables the link */
   cursor: default !important;
@@ -1172,7 +1172,7 @@ html body [id*="pub"] .pub-authors a {
 
 /* Ensure the Brand/Logo scales or stays centered */
 .navbar-brand {
-  margin-right: 2rem !important;
+  margin-right: 1.8rem !important;
   font-weight: 800 !important;
 }
 
