@@ -4,7 +4,7 @@ type: landing
 
 sections:
   - block: markdown
-    id: nexgen-info
+    id: contact-info
     content:
       title: ''
       text: |

@@ -4,7 +4,7 @@ type: landing
 
 sections:
   - block: markdown
-    id: nexgen-info
+    id: dissemination-info
     content:
       title: ''
       text: |
