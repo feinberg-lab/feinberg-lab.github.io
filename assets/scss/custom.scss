@@ -1536,18 +1536,35 @@ div#publications a:hover {
   background-color: transparent !important;
 }
 
-/* 2. Set the Hover state: Background turns Blue, Text stays White */
+/* 2. Set the Hover state: Corrected syntax (No extra semicolon) */
 .btn-links .btn:hover, 
 .pub-list-item .btn-outline-primary:hover,
 .pub-list-item .btn:hover {
-  background-color: #FDB515; !important; /* Berkeley Blue */
-  color: #ffffff !important;                   /* Keep text white */
-  text-decoration: none !important;            /* No underlines */
-  border-color: var(--primary) !important;
+  background-color: #FDB515 !important; 
+  color: #ffffff !important;                   
+  text-decoration: none !important;            
+  border-color: #FDB515 !important;
 }
 
-/* 3. Ensure the icons (PDF, Cite, etc.) also turn white on hover */
+/* 3. Ensure icons turn white on hover */
 .btn-links .btn:hover i,
 .pub-list-item .btn:hover i {
   color: #ffffff !important;
+}
+
+/* --- Final Spacing Adjustments --- */
+
+/* Pulls authors slightly down from the title for a cleaner gap */
+.pub-list-item .article-metadata,
+.view-citation .article-metadata,
+.view-compact .article-metadata,
+.pub-authors {
+  margin-top: 4px !important; 
+  padding-top: 0px !important;
+  display: block !important;
+}
+
+/* Adds space between the author list and the PDF/Cite buttons */
+.btn-links {
+  margin-top: 8px !important;
 }
