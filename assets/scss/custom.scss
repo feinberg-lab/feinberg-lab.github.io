@@ -630,3 +630,25 @@ figcaption {
   clear: both !important;    /* Ensures it stays on its own line above the image/text */
   float: none !important;    /* Prevents it from trying to wrap with the image */
 }
+
+/* Full-width "Bleed" effect for top banners */
+.full-width-bleed {
+  width: 100vw !important;
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+}
+
+.full-width-bleed img {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 0 !important; /* Optional: removes rounded corners for a seamless look */
+  box-shadow: none !important;
+}
+
+/* Remove padding from the specific section to ensure the image touches the edges */
+#about-full-image {
+  padding: 0 !important;
+}

@@ -4,24 +4,23 @@ type: landing
 
 sections:
   - block: markdown
-    id: about
+    id: about-full-image  # Unique ID to target with CSS
     content:
       title: ''
       subtitle: ''
       text: |
-        <div class="static-full-card">
-          <figure class="lab-basics-figure">
-            <img src="/images/n7t_b.png" class="static-card-img">      
-          </figure>
+        <div class="full-width-bleed">
+          <img src="/images/n7t_b.png" alt="NexGen 7T Banner">
         </div>
-      design:
-        columns: '1'
+    design:
+      columns: '1'
+      spacing:
+        padding: ['0', '0', '0', '0'] # Forces the block to have zero internal spacing
 
   - block: markdown
     id: about
     content:
       title: ''
-      subtitle: ''
       text: |
         <div class="static-full-card">
           <h2 class="join-header">About</h2>
@@ -30,8 +29,8 @@ sections:
         <div class="lab-style-block">
           <p>Feinberg Lab at UC Berkeley... </p>
         </div>
-      design:
-        columns: '1'
+    design:
+      columns: '1'
 
   - block: collection
     id: news
@@ -47,6 +46,4 @@ sections:
     design:
       view: citation
       columns: '1'
-      background:
-        color: '#f9f9f9' # Optional: light gray to separate sections
 ---
