@@ -51,7 +51,7 @@ sections:
     content:
       title: ''
       text: |
-        <div class="scholar-container">
+        <div class="lab-style-block">
           <p style="margin: 0;">
             <i class="ai ai-google-scholar" style="color: #003262; font-size: 0.85rem; vertical-align: middle; margin-right: 5px;"></i> 
             For a full list of publications, visit 
