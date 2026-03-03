@@ -737,3 +737,31 @@ figcaption {
   color: var(--primary) !important;
   text-decoration: none !important;
 }
+
+
+/* --- Publication Button Hover Fix --- */
+
+/* 1. Set the default state for the buttons */
+.btn-links .btn, 
+.pub-list-item .btn-outline-primary {
+  transition: all 0.2s ease-in-out !important;
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+  background-color: transparent !important;
+}
+
+/* 2. Set the Hover state: Background turns Blue, Text stays White */
+.btn-links .btn:hover, 
+.pub-list-item .btn-outline-primary:hover,
+.pub-list-item .btn:hover {
+  background-color: var(--primary) !important; /* Berkeley Blue */
+  color: #ffffff !important;                   /* Keep text white */
+  text-decoration: none !important;            /* No underlines */
+  border-color: var(--primary) !important;
+}
+
+/* 3. Ensure the icons (PDF, Cite, etc.) also turn white on hover */
+.btn-links .btn:hover i,
+.pub-list-item .btn:hover i {
+  color: #ffffff !important;
+}
