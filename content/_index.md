@@ -27,7 +27,7 @@ sections:
           <div class="gold-divider"></div>
         </div>
         <div class="lab-style-block">
-          <p>Feinberg Lab at UC Berkeley... </p>
+          <p>Dr. David Feinberg’s Lab at UC Berkeley Department of Neuroscience is pioneering the integration of advanced MRI hardware, pulse sequence design, and neuroscience applications to push human brain imaging to unprecedented resolution. The lab led development of the NexGen 7T MRI scanner, an ultra-high-field platform that achieves up to tenfold greater functional MRI resolution compared to conventional 7T systems—allowing researchers to localize brain activity and microstructure at the scale of cortical laminae and columnar neurocircuit organization. By combining high-performance gradient coils, dense receiver arrays, and innovative pulse sequences, the team enables mesoscale imaging that can detect abnormalities or trace brain networks with new precision, opening transformative possibilities for understanding of neurological disorders.</p>
         </div>
     design:
       columns: '1'
