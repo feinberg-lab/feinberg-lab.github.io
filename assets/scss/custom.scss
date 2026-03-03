@@ -1600,3 +1600,50 @@ div#publications a:hover {
   display: block;
   margin: 0 auto !important;   /* Standard centering */
 }
+
+/* --- 22. EQUAL HEIGHT SIDE-BY-SIDE BLOCKS --- */
+
+.side-by-side-content {
+  display: flex !important;
+  gap: 30px;
+  align-items: stretch; /* This forces the columns to match height */
+  margin-bottom: 40px;
+}
+
+/* Ensure the text container takes up the remaining space */
+.side-by-side-content .text-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers text if it's shorter than the image */
+}
+
+/* Fixed width for the image container so they all look uniform */
+.side-by-side-content .figure-column {
+  flex: 0 0 40%; /* Image takes up 40% of the width */
+  margin: 0 !important;
+}
+
+.side-by-side-content .figure-column img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important; /* Crops the image slightly to fill the text height */
+  border-radius: 8px;
+}
+
+/* Standardizing the caption */
+.side-by-side-content figcaption {
+  margin-top: 8px;
+  font-size: 0.75rem !important;
+  line-height: 1.2;
+}
+
+/* Mobile: Stack them back up on small screens */
+@media (max-width: 768px) {
+  .side-by-side-content {
+    flex-direction: column !important;
+  }
+  .side-by-side-content .figure-column {
+    flex: 0 0 100% !important;
+  }
+}
