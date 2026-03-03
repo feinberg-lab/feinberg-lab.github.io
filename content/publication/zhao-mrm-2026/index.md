@@ -1,6 +1,6 @@
 
 ---
-title: "Next Generation 7 Tesla Arterial Spin Labeling With Rotated Spiral Acquisition Enables Mesoscale Resolution in 3D Brain Perfusion and Functional MRI"
+title: "Next generation 7 Tesla arterial spin labeling with rotated spiral acquisition enables mesoscale resolution in 3D brain perfusion and functional MRI"
 
 weight: 1
 

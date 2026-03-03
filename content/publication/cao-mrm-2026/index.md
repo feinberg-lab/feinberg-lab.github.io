@@ -1,6 +1,6 @@
 
 ---
-title: "In Vivo Meso-Scale Whole-Brain Quantitative Imaging With Tailored MRF on the NexGen 7T Scanner"
+title: "In vivo meso-scale whole-brain quantitative imaging with tailored MRF on the NexGen 7T scanner"
 
 weight: 1
 
