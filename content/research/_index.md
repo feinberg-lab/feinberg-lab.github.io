@@ -64,7 +64,7 @@ sections:
           <div class="static-full-card">
           <figure class="lab-basics-figure">
             <img src="/images/sms.jpg" class="static-card-img">
-            <figcaption>Diffusion Imaging.</figcaption>  
+            <figcaption>Multiplexed EPI with MB × SIR images per echo train. (Feinberg and Setsompop, JMR, 2013)</figcaption>  
           </figure>
           </div>
         </div>
