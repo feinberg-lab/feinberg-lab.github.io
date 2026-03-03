@@ -727,23 +727,32 @@ figcaption {
 
 /* --- 2. SURGICAL LINK KILLER (PUBLICATIONS ONLY) --- */
 
-/* Only target the publications ID for link destruction */
-#publications .article-title a,
-#publications .pub-list-item a:first-of-type {
-  pointer-events: none !important;
-  cursor: default !important;
-  text-decoration: none !important;
-  color: var(--primary) !important; /* Keep it Berkeley Blue */
+/* Targets the container, keeping it below the title */
+#publications .article-metadata,
+#publications .pub-authors {
+  display: block !important;       /* Keeps the WHOLE group on a new line */
+  margin-top: -2px !important;     /* Pulls the group closer to the title */
+  line-height: 1.2 !important;
 }
 
-/* Kill links in publication authors/metadata only */
-#publications .article-metadata,
+/* Targets the individual authors INSIDE the container */
 #publications .article-metadata a,
-#publications .pub-authors a {
-  pointer-events: none !important;
+#publications .article-metadata span,
+#publications .pub-authors a,
+#publications .pub-authors span {
+  display: inline !important;      /* Forces names to stay on the SAME line */
+  pointer-events: none !important; /* Disables links */
   cursor: default !important;
   text-decoration: none !important;
-  display: block !important; /* Keep authors on their own line below title */
+  color: var(--text-muted) !important;
+  font-size: 0.72rem !important;
+}
+
+/* Add a comma or separator spacing if the theme removed them */
+#publications .article-metadata a:not(:last-child):after,
+#publications .pub-authors a:not(:last-child):after {
+  content: ", ";
+  display: inline;
 }
 
 /* --- 3. RECENT ABSTRACTS (MANUAL LIST) --- */
