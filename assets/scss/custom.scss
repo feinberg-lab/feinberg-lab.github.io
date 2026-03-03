@@ -705,3 +705,35 @@ figcaption {
 .pub-list-item a {
   padding: 0 !important;
 }
+
+/* --- 18. PERMANENT LINK DESTRUCTION FOR PUBLICATIONS --- */
+
+/* Targets the automated publication collection titles */
+#publications .article-title a,
+#publications .pub-list-item a,
+.view-citation .article-title a,
+.view-compact .article-title a {
+  color: var(--primary) !important;   /* Force back to Berkeley Blue */
+  text-decoration: none !important;   /* Remove underlines */
+  pointer-events: none !important;    /* Makes it unclickable */
+  cursor: default !important;         /* Keeps the arrow cursor, not the hand */
+  border-bottom: none !important;     /* Removes any theme-specific borders */
+}
+
+/* Force authors to be plain text and small as well */
+#publications .article-metadata,
+#publications .article-metadata a,
+#publications .pub-authors a {
+  color: var(--text-muted) !important;
+  text-decoration: none !important;
+  pointer-events: none !important;
+  cursor: default !important;
+  font-size: 0.72rem !important;
+}
+
+/* Ensure nothing happens when hovering over these titles */
+#publications .article-title a:hover,
+.view-citation .article-title a:hover {
+  color: var(--primary) !important;
+  text-decoration: none !important;
+}
