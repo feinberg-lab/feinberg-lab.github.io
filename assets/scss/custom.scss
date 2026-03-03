@@ -662,3 +662,46 @@ figcaption {
 #about-full-image {
   padding: 0 !important;
 }
+
+
+/* --- COMPACT PUBLICATIONS & ABSTRACTS --- */
+
+/* 1. Target the automated Collection/News/Pubs entries */
+.pub-list-item, 
+.view-citation, 
+.view-compact {
+  margin-bottom: 0.8rem !important; /* Reduces gap between entries */
+  line-height: 1.2 !important;
+}
+
+/* Shrink Publication/News Titles */
+.pub-list-item .article-title,
+.view-citation .article-title,
+.view-compact .article-title {
+  font-size: 0.88rem !important; /* Smaller, crisp title */
+  font-weight: 700 !important;
+  margin-bottom: 2px !important;
+}
+
+/* Tighten Author List & Metadata */
+.pub-list-item .article-metadata,
+.pub-authors,
+.article-style {
+  font-size: 0.78rem !important; /* Smaller author text */
+  line-height: 1.2 !important;   /* Pulls lines closer together */
+  color: #555 !important;
+  margin-top: 0 !important;
+}
+
+/* 2. Target the Manual "Recent Abstracts" block */
+#nexgen-info .lab-style-block p {
+  font-size: 0.78rem !important; 
+  line-height: 1.25 !important;
+  margin-bottom: 12px !important; /* Space between individual abstracts */
+  color: var(--text-main);
+}
+
+/* Ensure links within compact lists don't have huge padding */
+.pub-list-item a {
+  padding: 0 !important;
+}
