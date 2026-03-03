@@ -9,44 +9,23 @@ sections:
       title: |
         <h2 class="join-header">Select Publications</h2>
         <div class="gold-divider"></div>
-      subtitle: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 0
-      text: ''
-      # Filter on criteria
       filters:
-        # The folders to display content from
         folders:
           - publication
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
         featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-      show_publication: true
-      show_authors: true
-      # Choose how many pages you would like to offset by
-      # Useful if you wish to show the first item in the Featured widget
-      offset: 0
-      # Field to sort by, such as Date or Title
+      count: 0
       sort_by: 'Date'
       sort_ascending: false
     design:
-      # Choose a listing view
-      view: custom-compact
-      # Choose single or dual column layout
+      view: compact
       columns: '1'
       spacing:
-        padding: ['20px', '0', '0', '0'] # [Top, Right, Bottom, Left]
+        padding: ['20px', '0', '0', '0']
 
   - block: markdown
     id: scholar-footer
     content:
       title: ''
-      subtitle: ''
       text: |
         <div class="scholar-container">
           <p style="margin: 0;">
@@ -57,12 +36,10 @@ sections:
         </div>
     design:
       columns: '1'
-      background:
-        color: '#ffffff'
       spacing:
         padding: ['0', '0', '0', '0']
 
-- block: markdown
+  - block: markdown
     id: nexgen-info
     content:
       title: ''
