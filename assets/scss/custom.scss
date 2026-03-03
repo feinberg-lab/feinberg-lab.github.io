@@ -567,34 +567,54 @@ figcaption {
 }
 
 
-/* Half-width figure aligned to the right */
-.figure-right {
-  float: right;
-  width: 48%; /* Slightly less than 50% for breathing room */
-  margin-left: 25px;
-  margin-bottom: 20px;
-}
-
-/* Half-width figure aligned to the left */
-.figure-left {
-  float: left;
-  width: 48%;
-  margin-right: 25px;
-  margin-bottom: 20px;
-}
-
-/* Fix for mobile: stack images back to full width */
-@media (max-width: 768px) {
-  .figure-right, .figure-left {
-    float: none;
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-}
-
 /* Ensure the next header doesn't get pulled up into the float */
 .lab-style-block {
   clear: both;
   overflow: hidden; /* Contains the floated images within the block */
   padding-bottom: 40px;
+}
+
+/* Container for the image and paragraph only */
+.side-by-side-content {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+/* Image on the Right */
+.figure-right-small {
+  float: right;
+  width: 45%;
+  margin: 0 0 15px 25px;
+}
+
+/* Image on the Left */
+.figure-left-small {
+  float: left;
+  width: 45%;
+  margin: 0 25px 15px 0;
+}
+
+/* Force Titles and Dividers to stay full width above the images */
+.lab-style-block h2, 
+.lab-style-block .gold-divider {
+  width: 100% !important;
+  display: block !important;
+  clear: both !important;
+  float: none !important;
+}
+
+/* Ensure the text starts right next to the image */
+.side-by-side-content p {
+  display: block;
+  margin-top: 0;
+}
+
+/* Mobile: Stack everything */
+@media (max-width: 768px) {
+  .figure-right-small, .figure-left-small {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 0 20px 0 !important;
+  }
 }
