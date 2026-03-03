@@ -23,23 +23,6 @@ sections:
         padding: ['20px', '0', '0', '0']
 
   - block: markdown
-    id: scholar-footer
-    content:
-      title: ''
-      text: |
-        <div class="scholar-container">
-          <p style="margin: 0;">
-            <i class="ai ai-google-scholar" style="color: #003262; font-size: 0.9rem; vertical-align: middle; margin-right: 5px;"></i> 
-            For a full list of publications, visit 
-            <a href="https://scholar.google.com/citations?user=uaUKPpoAAAAJ&hl=en" target="_blank" rel="noopener" style="color: #003262; font-weight: bold;">Google Scholar</a>.
-          </p>
-        </div>
-    design:
-      columns: '1'
-      spacing:
-        padding: ['0', '0', '0', '0']
-
-  - block: markdown
     id: nexgen-info
     content:
       title: ''
@@ -57,6 +40,23 @@ sections:
           <p><strong>Whole-brain, cerebral blood volume weighted imaging of cortical networks using the Next Generation (NexGen) 7T scanner.</strong> Alexander J. Beckett, Suvi Häkkinen, Erica B. Walker, Oleksandr Khegai, An T. Vu, Renzo Huber, David Feinberg. ISMRM, 2026.</p>
 
           <p><strong>Functional imaging of hippocampal layers using VASO on the Next Generation (NexGen) 7T.</strong> Suvi Häkkinen, Alexander J. Beckett, Erica Walker, Renzo Huber, David A. Feinberg. ISMRM, 2025.</p>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['0', '0', '0', '0']
+
+  - block: markdown
+    id: scholar-footer
+    content:
+      title: ''
+      text: |
+        <div class="scholar-container">
+          <p style="margin: 0;">
+            <i class="ai ai-google-scholar" style="color: #003262; font-size: 0.85rem; vertical-align: middle; margin-right: 5px;"></i> 
+            For a full list of publications, visit 
+            <a href="https://scholar.google.com/citations?user=uaUKPpoAAAAJ&hl=en" target="_blank" rel="noopener" style="color: #003262; font-weight: bold;">Google Scholar</a>.
+          </p>
         </div>
     design:
       columns: '1'
