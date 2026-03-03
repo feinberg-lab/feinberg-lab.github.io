@@ -1562,3 +1562,11 @@ div#publications a:hover {
 .btn-links {
   margin-top: 8px !important;
 }
+
+
+@media (max-width: 480px) {
+  #people-section .col-12.col-sm-auto {
+    flex: 0 0 100% !important; /* 1 per row on small phones */
+    max-width: 100% !important;
+  }
+}
