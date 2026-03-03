@@ -713,18 +713,18 @@ figcaption {
 #publications .pub-list-item a,
 .view-citation .article-title a,
 .view-compact .article-title a {
-  color: var(--primary) !important;   /* Force back to Berkeley Blue */
   text-decoration: none !important;   /* Remove underlines */
   pointer-events: none !important;    /* Makes it unclickable */
   cursor: default !important;         /* Keeps the arrow cursor, not the hand */
   border-bottom: none !important;     /* Removes any theme-specific borders */
+  color: var(--primary) !important;
+  font-weight: 800 !important;
 }
 
 /* Force authors to be plain text and small as well */
 #publications .article-metadata,
 #publications .article-metadata a,
 #publications .pub-authors a {
-  color: var(--text-muted) !important;
   text-decoration: none !important;
   pointer-events: none !important;
   cursor: default !important;
