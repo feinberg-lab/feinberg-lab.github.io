@@ -707,31 +707,51 @@ figcaption {
   padding: 0 !important;
 }
 
-/* --- 18. PERMANENT LINK DESTRUCTION FOR PUBLICATIONS --- */
+/* --- 1. RESTORE NEWS CLICKS & LAYOUT --- */
 
-/* Targets the automated publication collection titles */
-#publications .article-title a,
-#publications .pub-list-item a,
-.view-citation .article-title a,
-.view-compact .article-title a {
-  text-decoration: none !important;   /* Remove underlines */
-  pointer-events: none !important;    /* Makes it unclickable */
-  cursor: default !important;         /* Keeps the arrow cursor, not the hand */
-  border-bottom: none !important;     /* Removes any theme-specific borders */
-  color: var(--primary) !important;
-  font-weight: 600 !important;
-  margin-bottom: 5px !important; /* Removes the gap below the title */
-  padding-bottom: 5px !important;
+/* Ensure News titles remain clickable and orange as per your branding */
+#news .article-title a {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  color: #D9661F !important;
+  text-decoration: underline !important;
 }
 
-/* Force authors to be plain text and small as well */
+/* Ensure News dates stay inline and clickable if needed */
+#news .article-metadata, 
+#news .article-metadata span {
+  display: inline !important; /* Prevents date from dropping to a new line */
+  pointer-events: auto !important;
+  font-size: var(--font-tiny) !important;
+}
+
+/* --- 2. SURGICAL LINK KILLER (PUBLICATIONS ONLY) --- */
+
+/* Only target the publications ID for link destruction */
+#publications .article-title a,
+#publications .pub-list-item a:first-of-type {
+  pointer-events: none !important;
+  cursor: default !important;
+  text-decoration: none !important;
+  color: var(--primary) !important; /* Keep it Berkeley Blue */
+}
+
+/* Kill links in publication authors/metadata only */
 #publications .article-metadata,
 #publications .article-metadata a,
 #publications .pub-authors a {
-  text-decoration: none !important;
   pointer-events: none !important;
   cursor: default !important;
-  font-size: 0.75rem !important;
+  text-decoration: none !important;
+  display: block !important; /* Keep authors on their own line below title */
+}
+
+/* --- 3. RECENT ABSTRACTS (MANUAL LIST) --- */
+/* Target only the abstracts on the bottom of the Pubs page */
+#nexgen-info .lab-style-block p {
+  font-size: 0.78rem !important;
+  line-height: 1.25 !important;
+  margin-bottom: 12px !important;
 }
 
 /* Targets the author list's top margin */
