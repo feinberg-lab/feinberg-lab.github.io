@@ -10,8 +10,8 @@ sections:
         <h2 class="join-header">Select Publications</h2>
         <div class="gold-divider"></div>
       filters:
-        folders:
-          - publication
+        #folders:
+        #  - publication
         publication_types: "article-journal"
         featured_only: false
       count: 0
