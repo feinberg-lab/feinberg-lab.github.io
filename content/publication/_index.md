@@ -12,7 +12,7 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: article-journal
+        publication_types: article-journal
         featured_only: false
       count: 0
       sort_by: 'Date'
