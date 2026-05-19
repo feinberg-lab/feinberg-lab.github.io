@@ -20,7 +20,7 @@ sections:
       view: compact
       columns: '1'
       spacing:
-        padding: ['20px', '0', '0', '0']
+        padding: ['0px', '0', '0', '0']
 
   - block: markdown
     id: nexgen-info
