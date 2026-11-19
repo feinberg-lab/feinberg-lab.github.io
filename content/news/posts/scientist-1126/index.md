@@ -6,8 +6,7 @@ image:
   focal_point: 'top'
 ---
 
-<div style="flex: 1.2; min-width: 300px;">
-    <p>
+
       The Neuroscience Department at the University of California, Berkeley seeks applications for two Project Scientist positions at the Assistant, Associate, or Full rank, in the lab of Prof. David Feinberg, in the area of neuroimaging.
 
       The goal of the project supporting these positions is to advance scientific discovery using the Next Generation (NexGen) 7T scanner, one of the most powerful 7T scanners in the world. The scanner includes a very high performance gradient, the Impulse head gradient (200 mT/m, 900 T/m/s), the only 128-channel receiver system, the highest on a 7T scanner, and a 16 channel receiver system to achieve excellent pTx. The Project Scientists will undertake research involving advanced neuroimaging at the scale of cortical layers and columns.
@@ -23,6 +22,4 @@ image:
       ● Preparation and submission of manuscripts and grants
       ● Present at conferences
       ● Attend weekly lab meetings and give regular presentations at these meetings
-    </p>
-  </div>
 
