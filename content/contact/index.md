@@ -41,6 +41,17 @@ sections:
         padding: ['0', '0', '0', '0']
 
   - block: markdown
+    id: openings
+    content:
+      title: ''
+      subtitle: ''
+      text: |
+        <h2 class="join-header">Lab Openings</h2>
+        <div class="gold-divider"></div>
+        <div class="lab-style-block">
+          <p>The Neuroscience Department at the University of California, Berkeley seeks applications for two <a href="https://aprecruit.berkeley.edu/JPF05600" target="_blank">Project Scientist positions</a> at the Assistant, Associate, or Full rank, in the lab of Prof. David Feinberg, in the area of neuroimaging.
+        </div>
+  - block: markdown
     id: collaborators
     content:
       title: ''
