@@ -1,6 +1,6 @@
 
 ---
-title: "Functional imaging of hippocampal layers using VASO and BOLD on the Next Generation (NexGen) 7T scanner (preprint)"
+title: "Functional imaging of hippocampal layers using VASO and BOLD on the Next Generation (NexGen) 7T scanner"
 
 weight: 1
 
@@ -15,19 +15,19 @@ authors:
   - Laurentius Huber
   - David A. Feinberg
   
-publication: "bioRxiv"
-publication_short: "bioRxiv"
+publication: "Human Brain Mapping"
+publication_short: "Hum Brain Mapp"
 
-date: 2025-12-30
+date: 2026-10-15
 
 summary: ''
 
-doi: "10.1101/2025.08.29.673151"
+doi: "10.1002/hbm.70660"
 
 # links:
 # - name: ""
 # url: ""
-url_pdf: 'https://www.biorxiv.org/content/10.1101/2025.08.29.673151v2'
+url_pdf: 'https://onlinelibrary.wiley.com/doi/10.1002/hbm.70660'
 url_code: ''
 url_dataset: ''
 url_poster: ''
